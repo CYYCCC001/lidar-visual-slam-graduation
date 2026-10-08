@@ -1,0 +1,12 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1791266284.060180058] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Street_02/street2_ros2/street2_ros2.db3' for READ_ONLY.
+[INFO] [1791266284.060336007] [rosbag2_player]: Set rate to 1
+[WARN] [1791266284.071792390] [rosbag2_player]: Ignoring a topic '/ublox_driver/range_meas', reason: package 'gnss_comm' not found, searching: [/home/nvidia/ros2_ws/install/orb_slam3_ros2, /home/nvidia/ros2_ws/install/fast_lio, /home/nvidia/ros2_ws/install/livox_ros_driver2, /opt/ros/humble].
+[WARN] [1791266284.071995511] [rosbag2_player]: Ignoring a topic '/ublox_driver/receiver_pvt', reason: package 'gnss_comm' not found, searching: [/home/nvidia/ros2_ws/install/orb_slam3_ros2, /home/nvidia/ros2_ws/install/fast_lio, /home/nvidia/ros2_ws/install/livox_ros_driver2, /opt/ros/humble].
+[WARN] [1791266284.072961672] [rosbag2_player]: Ignoring a topic '/ublox_driver/ephem', reason: package 'gnss_comm' not found, searching: [/home/nvidia/ros2_ws/install/orb_slam3_ros2, /home/nvidia/ros2_ws/install/fast_lio, /home/nvidia/ros2_ws/install/livox_ros_driver2, /opt/ros/humble].
+[WARN] [1791266284.073100531] [rosbag2_player]: Ignoring a topic '/ublox_driver/iono_params', reason: package 'gnss_comm' not found, searching: [/home/nvidia/ros2_ws/install/orb_slam3_ros2, /home/nvidia/ros2_ws/install/fast_lio, /home/nvidia/ros2_ws/install/livox_ros_driver2, /opt/ros/humble].
+[INFO] [1791266284.080972326] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1791266284.081059661] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1791266284.081090864] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1791266284.081113522] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1791266284.081130323] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1791266284.082115750] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Street_02/street2_ros2/street2_ros2.db3' for READ_ONLY.

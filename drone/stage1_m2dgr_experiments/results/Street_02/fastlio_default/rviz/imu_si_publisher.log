@@ -1,0 +1,2 @@
+[INFO] [1791266562.863212173] [imu_si_publisher]: IMU SI bridge started: /livox/imu -> /livox/imu_si, acc_scale=9.80665
+[INFO] [1791266780.900869304] [rclcpp]: signal_handler(SIGINT/SIGTERM)

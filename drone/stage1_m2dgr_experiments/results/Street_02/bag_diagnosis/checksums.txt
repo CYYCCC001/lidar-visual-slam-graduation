@@ -1,0 +1,2 @@
+46ea3e54c54c2e6ac7b3ffbe40f912ddad49312b77c3054ca69ed4faa35ec49c  /home/nvidia/drone/stage1_m2dgr_experiments/bags/Street_02/street2_ros2/metadata.yaml
+f5fa83186650b9c2386aa585c8dad4d87412c742038a5c89f3c75402351fe61b  /home/nvidia/drone/stage1_m2dgr_experiments/bags/Street_02/street2_ros2/street2_ros2.db3

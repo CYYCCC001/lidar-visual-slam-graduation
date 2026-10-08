@@ -1,0 +1,22 @@
+
+Files:             street2_ros2.db3
+Bag size:          3.7 GiB
+Storage id:        sqlite3
+Duration:          121.347465991s
+Start:             Nov  7 2022 11:57:49.347966215 (1667793469.347966215)
+End:               Nov  7 2022 11:59:50.695432206 (1667793590.695432206)
+Messages:          53248
+Topic information: Topic: /camera/imu | Type: sensor_msgs/msg/Imu | Count: 24271 | Serialization Format: cdr
+                   Topic: /imu | Type: sensor_msgs/msg/Imu | Count: 12135 | Serialization Format: cdr
+                   Topic: /tf | Type: tf2_msgs/msg/TFMessage | Count: 8489 | Serialization Format: cdr
+                   Topic: /odom | Type: nav_msgs/msg/Odometry | Count: 2427 | Serialization Format: cdr
+                   Topic: /rslidar_points | Type: sensor_msgs/msg/PointCloud2 | Count: 610 | Serialization Format: cdr
+                   Topic: /camera/aligned_depth_to_color/image_raw | Type: sensor_msgs/msg/Image | Count: 1819 | Serialization Format: cdr
+                   Topic: /camera/color/image_raw | Type: sensor_msgs/msg/Image | Count: 1819 | Serialization Format: cdr
+                   Topic: /scan | Type: sensor_msgs/msg/LaserScan | Count: 1215 | Serialization Format: cdr
+                   Topic: /ublox_driver/range_meas | Type: gnss_comm/msg/GnssMeasMsg | Count: 121 | Serialization Format: cdr
+                   Topic: /ublox_driver/receiver_pvt | Type: gnss_comm/msg/GnssPVTSolnMsg | Count: 121 | Serialization Format: cdr
+                   Topic: /ublox_driver/receiver_lla | Type: sensor_msgs/msg/NavSatFix | Count: 121 | Serialization Format: cdr
+                   Topic: /ublox_driver/ephem | Type: gnss_comm/msg/GnssEphemMsg | Count: 67 | Serialization Format: cdr
+                   Topic: /ublox_driver/iono_params | Type: gnss_comm/msg/StampedFloat64Array | Count: 33 | Serialization Format: cdr
+

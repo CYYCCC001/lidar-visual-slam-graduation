@@ -1,0 +1,12 @@
+/home/nvidia/ORB_SLAM3-master -> /home/nvidia/drone/camera/orbslam3/ORB_SLAM3-master
+/home/nvidia/Pangolin -> /home/nvidia/drone/camera/orbslam3/Pangolin
+/home/nvidia/camera_c330_calibration -> /home/nvidia/drone/camera/calibration/camera_c330_calibration
+/home/nvidia/camera-calibration-main -> /home/nvidia/drone/camera/calibration/camera-calibration-main
+/home/nvidia/camera_calibration_capture.py -> /home/nvidia/drone/camera/calibration/tools/camera_calibration_capture.py
+/home/nvidia/c330_orbslam3_1280x720.yaml -> /home/nvidia/drone/camera/calibration/configs/c330_orbslam3_1280x720.yaml
+/home/nvidia/c330_orbslam3_mono.yaml -> /home/nvidia/drone/camera/calibration/configs/c330_orbslam3_mono.yaml
+/home/nvidia/c330_KeyFrameTrajectory_TUM_Format.txt -> /home/nvidia/drone/camera/calibration/results/c330_KeyFrameTrajectory_TUM_Format.txt
+/home/nvidia/ultralytics -> /home/nvidia/drone/camera/yolo/source/ultralytics
+/home/nvidia/venvs -> /home/nvidia/drone/camera/yolo/environment/venvs
+/home/nvidia/yolo_models -> /home/nvidia/drone/camera/yolo/models
+/home/nvidia/yolo_ros2_ws -> /home/nvidia/drone/camera/yolo/ros2_ws

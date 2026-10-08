@@ -1,0 +1,1 @@
+[INFO] [1791273418.812667624] [tum_path_publisher]: Loaded 141 poses from /home/nvidia/drone/stage1_m2dgr_experiments/results/Street_02/orbslam3/supplemental_measurement/KeyFrameTrajectory_TUM_Format_rate0.5.txt; publishing /orb_trajectory

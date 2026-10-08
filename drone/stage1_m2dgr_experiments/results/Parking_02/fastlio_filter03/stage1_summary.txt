@@ -1,0 +1,47 @@
+Stage 1 Step 7 Summary: FAST-LIO2 filter_size_surf comparison
+=============================================================
+
+Dataset: Parking_02
+Baseline: filter_size_surf=0.5
+Experiment: filter_size_surf=0.3
+
+Main result:
+Reducing filter_size_surf from 0.5 to 0.3 improved the trajectory position
+metrics on this run. ATE position RMSE decreased from 0.303657 m to
+0.148522 m. RPE translation RMSE decreased from 0.173436 m to 0.064888 m at
+1 s and from 0.467672 m to 0.117748 m at 5 s.
+
+Rotation:
+Relative rotation RPE changed from 0.504116 deg to 0.509677 deg at 1 s and
+from 1.853694 deg to 1.805768 deg at 5 s. The change is small compared with
+the translation improvement.
+
+Runtime and resources:
+The experiment processed 627 frames with an average total processing time of
+143.546 ms and an effective processing rate of 6.966 Hz. During bag playback,
+average CPU was 36.632%, maximum CPU was 52.200%, and maximum RSS was
+958664 KB. A separate default-group remeasurement processed 674 frames with
+an average total processing time of 112.915 ms and an effective processing
+rate of 8.856 Hz. Relative to that remeasurement, the experiment was 27.14%
+slower per frame and had 21.34% lower effective processing rate. The runs
+processed different frame counts, so this is a descriptive comparison rather
+than an identical-frame benchmark.
+
+Evidence:
+- `metrics/metrics.txt`
+- `metrics/ate_aligned_trajectory.csv`
+- `metrics/rpe_pairs.csv`
+- `metrics/timing.txt`
+- `metrics/performance.txt`
+- `map.pcd`
+- `fastlio_logs/`
+- `rviz/parking2_rviz_midrun.png`
+- `rviz/parking2_rviz_final.png`
+- `../fastlio_default/timing_remeasure/timing.txt`
+- `../fastlio_default/rviz_remeasure/parking2_default_rviz_midrun.png`
+- `../fastlio_default/rviz_remeasure/parking2_default_rviz_final.png`
+
+Warnings:
+The RViz replay log contains `No Effective Points!` warnings near the end of
+playback. No process crash occurred, and the RViz screenshots were captured
+successfully.

@@ -1,0 +1,13 @@
+filter_size_surf: 0.3
+resource_source: resource_samples.csv
+phase: bag_playback_only
+sample_count: 34
+average_cpu_percent: 36.632
+minimum_cpu_percent: 3.300
+maximum_cpu_percent: 52.200
+average_memory_percent: 3.294
+minimum_memory_percent: 0.800
+maximum_memory_percent: 5.900
+minimum_rss_kb: 144256
+maximum_rss_kb: 958664
+rss_max_mb: 936.195

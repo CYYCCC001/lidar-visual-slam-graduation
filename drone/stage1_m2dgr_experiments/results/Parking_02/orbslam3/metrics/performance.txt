@@ -1,0 +1,70 @@
+Parking_02 ORB-SLAM3 performance record
+=======================================
+image_topic: /camera/color/image_raw
+image_messages: 2174
+image_time_range_s: 1668742169.134619236 .. 1668742314.076488972
+image_duration_s: 144.941869736
+image_input_frequency_hz: 14.992217
+image_period_mean_s: 0.066701
+image_period_median_s: 0.066551
+image_period_min_s: 0.032773
+image_period_max_s: 0.106247
+
+KeyFrameTrajectory_TUM_Format.txt:
+  keyframes: 94
+  trajectory_span_s: 116.964634
+  mean_keyframe_frequency_hz: 0.795112
+  median_keyframe_period_s: 0.867156
+  max_keyframe_gap_s: 7.868059
+
+KeyFrameTrajectory_TUM_Format_rate0.5.txt:
+  keyframes: 116
+  trajectory_span_s: 115.431408
+  mean_keyframe_frequency_hz: 0.996263
+  median_keyframe_period_s: 0.666037
+  max_keyframe_gap_s: 7.005858
+
+resource_samples_direct.csv:
+  samples: 30
+  average_cpu_percent: 126.95
+  maximum_cpu_percent: 143.00
+  average_memory_percent: 3.73
+  maximum_memory_percent: 4.00
+  maximum_rss_mb: 641.03
+
+resource_samples_rate0.5.csv:
+  samples: 59
+  average_cpu_percent: 97.67
+  maximum_cpu_percent: 112.00
+  average_memory_percent: 3.90
+  maximum_memory_percent: 4.40
+  maximum_rss_mb: 695.50
+
+Note: orb_slam3_ros2 does not publish a dedicated processing-frequency topic.
+The keyframe frequency is an observable output rate, not a full image-processing rate.
+Tracking-loss and map-reset diagnostics are recorded in orbslam3_run_notes.md.
+
+Supplemental frame-level measurement (0.5x replay):
+  source: supplemental_measurement/frame_measurements.csv
+  bag_image_messages: 2174
+  received_image_callbacks: 2026
+  message_delivery_rate_percent: 93.1923
+  message_dropped_frames: 148
+  message_dropped_frame_ratio_percent: 6.8077
+  mean_track_monocular_time_ms: 45.063489
+  minimum_track_monocular_time_ms: 20.991600
+  maximum_track_monocular_time_ms: 134.877373
+  effective_algorithm_processing_rate_hz: 22.190914
+  tracking_state_NOT_INITIALIZED: 297
+  tracking_state_OK: 1683
+  tracking_state_RECENTLY_LOST: 45
+  tracking_state_LOST: 1
+  strict_tracking_success_rate_received_percent: 83.0701
+  strict_tracking_success_rate_all_bag_images_percent: 77.4149
+  tracking_success_rate_after_initialization_percent: 97.3395
+  tracking_loss_rate_received_percent: 2.2705
+
+The TrackMonocular timing measures the algorithm call only. It is not the
+bag input frequency, and it excludes ROS callback scheduling and image clone
+overhead. The original trajectories, metrics, and resource samples were not
+overwritten.

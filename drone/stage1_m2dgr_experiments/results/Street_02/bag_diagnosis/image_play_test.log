@@ -1,0 +1,6 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1791264243.384182952] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/results/Street_02/bag_diagnosis/compat_bag/street2_ros2.db3' for READ_ONLY.
+[INFO] [1791264243.384352904] [rosbag2_player]: Set rate to 1
+[INFO] [1791264243.393246318] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/results/Street_02/bag_diagnosis/compat_bag/street2_ros2.db3' for READ_ONLY.
+[INFO] [1791264250.705636223] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+
+command_return_code: 124

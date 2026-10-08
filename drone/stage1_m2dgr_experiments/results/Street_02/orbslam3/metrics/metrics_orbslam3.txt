@@ -1,0 +1,101 @@
+Street_02 ORB-SLAM3 partial Sim(3) evaluation
+================================================
+ground_truth: /home/nvidia/drone/stage1_m2dgr_experiments/ground_truth/Street_02/street2.txt
+image_count: 1819
+image_time_range: 1667793469.361341953 .. 1667793590.651982069
+image_duration_s: 121.290640116
+No missing frames were interpolated.
+Segment threshold: keyframe gap <= 2.0 s.
+
+Trajectory: KeyFrameTrajectory_TUM_Format_rate0.5.txt
+keyframes: 93
+keyframe_start: 1667793515.896094084
+keyframe_end: 1667793590.554902077
+keyframe_span_s: 74.658807993
+bag_time_coverage_percent: 61.553643
+segment_count: 8
+largest_gap_s: 12.179234982
+longest_segment_keyframes: 49
+
+all_saved_keyframes
+all_saved_keyframes.ATE_translation_m
+count: 93
+rmse: 2.093839503
+mean: 1.769235798
+median: 1.710316590
+max: 4.520265364
+all_saved_keyframes.ATE_rotation_deg
+count: 93
+rmse: 119.888484899
+mean: 119.841954228
+median: 120.350363021
+max: 128.513196691
+all_saved_keyframes.RPE.1.0.translation_m
+count: 56
+rmse: 0.271236268
+mean: 0.241041203
+median: 0.205962547
+max: 0.837066109
+all_saved_keyframes.RPE.1.0.rotation_deg
+count: 56
+rmse: 5.057973957
+mean: 2.593649050
+median: 0.931004416
+max: 24.123746476
+all_saved_keyframes.RPE.5.0.translation_m
+count: 43
+rmse: 1.058986217
+mean: 1.006332592
+median: 1.044398250
+max: 2.342226244
+all_saved_keyframes.RPE.5.0.rotation_deg
+count: 43
+rmse: 14.587807608
+mean: 9.862463982
+median: 4.535802499
+max: 49.074553269
+sim3_scale: 130.337221242
+
+longest_continuous_segment
+longest_continuous_segment.ATE_translation_m
+count: 49
+rmse: 0.033407812
+mean: 0.030181504
+median: 0.032704576
+max: 0.090379645
+longest_continuous_segment.ATE_rotation_deg
+count: 49
+rmse: 103.034097328
+mean: 103.018713895
+median: 102.400105234
+max: 108.413216615
+longest_continuous_segment.RPE.1.0.translation_m
+count: 43
+rmse: 0.021013733
+mean: 0.018248257
+median: 0.013559972
+max: 0.043233240
+longest_continuous_segment.RPE.1.0.rotation_deg
+count: 43
+rmse: 3.845204664
+mean: 2.043603599
+median: 0.778493465
+max: 14.772524850
+longest_continuous_segment.RPE.5.0.translation_m
+count: 32
+rmse: 0.059045721
+mean: 0.055278114
+median: 0.053653477
+max: 0.095929497
+longest_continuous_segment.RPE.5.0.rotation_deg
+count: 32
+rmse: 8.380309034
+mean: 7.056441151
+median: 4.473260808
+max: 15.179698540
+sim3_scale: 183.069843891
+
+Stability diagnostics
+rate_0.5.local_map_failures: 41
+rate_0.5.new_maps: 2
+rate_0.5.relocalizations: 0

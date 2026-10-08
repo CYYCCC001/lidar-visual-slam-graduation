@@ -1,0 +1,61 @@
+Parking_02 ORB-SLAM3 supplemental measurement
+==============================================
+
+Playback:
+- Bag: /home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2
+- Image topic: /camera/color/image_raw
+- Playback rate: 0.5x
+- Bag image count: 2174
+- Measurement CSV: frame_measurements.csv
+- Trajectory: KeyFrameTrajectory_TUM_Format_rate0.5.txt
+
+Processing time:
+- Measured operation: ORB-SLAM3 TrackMonocular call only
+- Received/processed image callbacks: 2026
+- Mean TrackMonocular time: 45.063489 ms
+- Standard deviation: 16.432815 ms
+- Minimum: 20.991600 ms
+- Maximum: 134.877373 ms
+- Effective algorithm processing rate: 22.190914 Hz
+- Received image timestamp span: 143.666451 s
+- Received image timestamp rate: 14.095149 Hz
+
+Message-level frame delivery:
+- Bag image messages: 2174
+- Received by the ORB-SLAM3 image callback: 2026
+- Not received by the callback: 148
+- Callback receive rate: 93.1923%
+- Message-level dropped-frame ratio: 6.8077%
+
+Tracking state counts:
+- NOT_INITIALIZED (1): 297
+- OK (2): 1683
+- RECENTLY_LOST (3): 45
+- LOST (4): 1
+
+Tracking rates:
+- Strict successful tracking (OK/OK_KLT) among received callbacks:
+  1683 / 2026 = 83.0701%
+- Strict successful tracking among all bag image messages:
+  1683 / 2174 = 77.4149%
+- Tracking loss states (RECENTLY_LOST + LOST) among received callbacks:
+  46 / 2026 = 2.2705%
+- Tracking loss states among all bag image messages:
+  46 / 2174 = 2.1159%
+- Excluding NOT_INITIALIZED callbacks, successful tracking rate:
+  1683 / (1683 + 45 + 1) = 97.3395%
+
+Diagnostics:
+- The run log contains 49 "Fail to track local map!" messages.
+- ORB-SLAM3 reports "55 Frames set to lost" in its internal diagnostic log.
+- These diagnostic counters are event/report counters and are not used as the
+  per-callback state counts above; one lost episode can cover multiple frames.
+- A second map was created after tracking degradation, consistent with the
+  previously observed partial-trajectory behavior.
+
+Interpretation:
+- The measured ORB-SLAM3 algorithm call time is below the received image
+  timestamp period, but the callback received 2026 of 2174 bag image messages.
+- The result therefore reports both processing capacity and message delivery
+  loss separately; the 22.190914 Hz value must not be presented as the bag
+  input frequency.

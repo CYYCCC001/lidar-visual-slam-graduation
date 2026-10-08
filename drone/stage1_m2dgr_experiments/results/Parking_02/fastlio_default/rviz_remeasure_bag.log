@@ -1,0 +1,12 @@
+[INFO] [1791261232.536615121] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2/parking2_ros2.db3' for READ_ONLY.
+[INFO] [1791261232.536754231] [rosbag2_player]: Set rate to 1
+[WARN] [1791261232.548073129] [rosbag2_player]: Ignoring a topic '/ublox_driver/range_meas', reason: package 'gnss_comm' not found, searching: [/home/nvidia/ros2_ws/install/orb_slam3_ros2, /home/nvidia/ros2_ws/install/fast_lio, /home/nvidia/ros2_ws/install/livox_ros_driver2, /opt/ros/humble].
+[WARN] [1791261232.548278288] [rosbag2_player]: Ignoring a topic '/ublox_driver/ephem', reason: package 'gnss_comm' not found, searching: [/home/nvidia/ros2_ws/install/orb_slam3_ros2, /home/nvidia/ros2_ws/install/fast_lio, /home/nvidia/ros2_ws/install/livox_ros_driver2, /opt/ros/humble].
+[WARN] [1791261232.548401877] [rosbag2_player]: Ignoring a topic '/ublox_driver/receiver_pvt', reason: package 'gnss_comm' not found, searching: [/home/nvidia/ros2_ws/install/orb_slam3_ros2, /home/nvidia/ros2_ws/install/fast_lio, /home/nvidia/ros2_ws/install/livox_ros_driver2, /opt/ros/humble].
+[WARN] [1791261232.549348729] [rosbag2_player]: Ignoring a topic '/ublox_driver/glo_ephem', reason: package 'gnss_comm' not found, searching: [/home/nvidia/ros2_ws/install/orb_slam3_ros2, /home/nvidia/ros2_ws/install/fast_lio, /home/nvidia/ros2_ws/install/livox_ros_driver2, /opt/ros/humble].
+[INFO] [1791261232.556188032] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1791261232.556280835] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1791261232.556309284] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1791261232.556330789] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1791261232.556349382] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1791261232.557454576] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2/parking2_ros2.db3' for READ_ONLY.

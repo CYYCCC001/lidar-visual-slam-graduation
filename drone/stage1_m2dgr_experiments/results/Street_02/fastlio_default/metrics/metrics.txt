@@ -1,0 +1,53 @@
+Street_02 FAST-LIO2 ATE/RPE evaluation
+========================================
+ground_truth: /home/nvidia/drone/stage1_m2dgr_experiments/ground_truth/Street_02/street2.txt
+estimate: /home/nvidia/drone/stage1_m2dgr_experiments/results/Street_02/fastlio_default/fastlio_logs/pos_log.txt
+bag_first_lidar_timestamp_ns: 1667793469359735223
+time_base_seconds: 1667793469.359735489
+matched_pose_count: 532
+ground_truth_time_range: 1667793466.473760605 .. 1667793593.013701200
+estimate_time_range: 1667793469.957014561 .. 1667793590.364887476
+
+ATE position after SE(3) Umeyama alignment [m]
+count: 532
+rmse: 8.136327533
+mean: 7.313292049
+median: 8.973150650
+max: 12.688860105
+
+Absolute orientation error after the same alignment [deg]
+count: 532
+rmse: 147.292867095
+mean: 146.715229599
+median: 143.671898952
+max: 179.546747673
+
+RPE (no per-interval alignment)
+
+Delta 1s, translation [m]
+count: 466
+rmse: 0.441570322
+mean: 0.304972301
+median: 0.200851644
+max: 1.919729181
+Delta 1s, rotation [deg]
+count: 466
+rmse: 4.493349034
+mean: 2.635587214
+median: 0.579943954
+max: 16.212569822
+
+Delta 5s, translation [m]
+count: 448
+rmse: 1.471480277
+mean: 1.246297623
+median: 1.053282304
+max: 3.250008695
+Delta 5s, rotation [deg]
+count: 448
+rmse: 15.772322612
+mean: 11.582909372
+median: 8.209613057
+max: 44.220628004
+
+Note: The supplied ground truth and FAST-LIO pose convention may refer to different physical sensor frames. The reported ATE is therefore the standard trajectory-level SE(3)-aligned result; sensor-frame offset refinement was not applied.

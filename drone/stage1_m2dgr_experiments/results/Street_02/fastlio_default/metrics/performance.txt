@@ -1,0 +1,10 @@
+FAST-LIO2 Street_02 performance summary
+resource_source: ../resource_samples.csv
+resource_sample_count: 25
+average_cpu_percent: 76.076
+maximum_cpu_percent: 83.800
+average_rss_kb: 464582.1
+maximum_rss_kb: 775452
+map_save: success=True
+map: ../map.pcd
+trajectory: ../fastlio_logs/pos_log.txt

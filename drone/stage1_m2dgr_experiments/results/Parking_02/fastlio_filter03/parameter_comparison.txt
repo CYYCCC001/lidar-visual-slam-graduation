@@ -1,0 +1,37 @@
+Parking_02 FAST-LIO2 parameter comparison
+=========================================
+
+Parameter: filter_size_surf
+
+| Metric | Baseline 0.5 | Experiment 0.3 | Change |
+|---|---:|---:|---:|
+| ATE position RMSE (m) | 0.303657 | 0.148522 | -51.09% |
+| RPE translation RMSE, 1 s (m) | 0.173436 | 0.064888 | -62.59% |
+| RPE translation RMSE, 5 s (m) | 0.467672 | 0.117748 | -74.82% |
+| RPE rotation RMSE, 1 s (deg) | 0.504116 | 0.509677 | +1.10% |
+| RPE rotation RMSE, 5 s (deg) | 1.853694 | 1.805768 | -2.59% |
+| Effective processing rate (Hz) | 8.856 | 6.966 | -21.34% |
+| Average total processing time (ms) | 112.915 | 143.546 | +27.14% |
+| Average CPU (%) | 41.18 | 36.632 | -11.04% |
+| Maximum CPU (%) | 54.30 | 52.200 | -3.87% |
+| Average memory (%) | 2.98 | 3.294 | +10.54% |
+| Maximum memory (%) | 5.90 | 5.900 | 0.00% |
+| Maximum RSS (KB) | 952148 | 958664 | +0.68% |
+
+Notes:
+
+- Baseline metrics are from
+  `../fastlio_default/metrics/metrics.txt`.
+- Experiment metrics are from `metrics/metrics.txt`.
+- Baseline resource values are documented in
+  `../fastlio_default/experiment_record.md`.
+- Experiment resource values use 34 samples from the bag playback phase only.
+- Baseline timing was remeasured in the isolated directory
+  `../fastlio_default/timing_remeasure/`; the original baseline result files
+  were not overwritten.
+- Effective processing rate is defined as `1 / average total processing time`.
+- The default and experiment timing runs processed different frame counts
+  (`674` and `627` respectively), so the timing comparison is descriptive
+  rather than a claim of identical-frame benchmarking.
+- The absolute orientation error is not used as the primary comparison
+  because the supplied ground truth and FAST-LIO pose frames differ.

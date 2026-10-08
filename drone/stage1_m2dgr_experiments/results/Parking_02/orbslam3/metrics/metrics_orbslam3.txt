@@ -1,0 +1,245 @@
+Parking_02 ORB-SLAM3 partial Sim(3) evaluation
+===============================================
+ground_truth: /home/nvidia/drone/stage1_m2dgr_experiments/ground_truth/Parking_02/parking2.txt
+image_count: 2174
+image_time_range: 1668742169.134619236 .. 1668742314.076488972
+image_duration_s: 144.941869736
+No missing frames were interpolated.
+Segment threshold: keyframe gap <= 2.0 s.
+
+
+Trajectory: KeyFrameTrajectory_TUM_Format.txt
+keyframes: 94
+keyframe_start: 1668742192.933989048
+keyframe_end: 1668742309.898622990
+keyframe_span_s: 116.964633942
+bag_time_coverage_percent: 80.697616
+segment_count: 14
+largest_gap_s: 7.868058920
+longest_segment_keyframes: 47
+
+all_saved_keyframes
+
+all_saved_keyframes.ATE_translation_m
+count: 94
+rmse: 0.023850253
+mean: 0.021814821
+median: 0.021358769
+max: 0.051199595
+
+all_saved_keyframes.ATE_rotation_deg
+count: 94
+rmse: 151.652676197
+mean: 151.619599990
+median: 150.515132040
+max: 156.706006118
+
+all_saved_keyframes.RPE
+
+all_saved_keyframes.RPE.1.0
+
+all_saved_keyframes.RPE.1.0.translation_m
+count: 47
+rmse: 0.015040341
+mean: 0.013690941
+median: 0.012607605
+max: 0.037815014
+
+all_saved_keyframes.RPE.1.0.rotation_deg
+count: 47
+rmse: 0.556817399
+mean: 0.485157501
+median: 0.431487761
+max: 1.175924637
+
+all_saved_keyframes.RPE.5.0
+
+all_saved_keyframes.RPE.5.0.translation_m
+count: 40
+rmse: 0.029716131
+mean: 0.027497106
+median: 0.025028228
+max: 0.049058772
+
+all_saved_keyframes.RPE.5.0.rotation_deg
+count: 40
+rmse: 2.597085282
+mean: 2.184967529
+median: 1.675544836
+max: 5.598597738
+sim3_scale: 8.282889397
+
+longest_continuous_segment
+
+longest_continuous_segment.ATE_translation_m
+count: 47
+rmse: 0.016661122
+mean: 0.015539887
+median: 0.014399143
+max: 0.030570649
+
+longest_continuous_segment.ATE_rotation_deg
+count: 47
+rmse: 149.103749467
+mean: 149.092222520
+median: 150.027360425
+max: 150.632258801
+
+longest_continuous_segment.RPE
+
+longest_continuous_segment.RPE.1.0
+
+longest_continuous_segment.RPE.1.0.translation_m
+count: 27
+rmse: 0.013444362
+mean: 0.012433062
+median: 0.010838784
+max: 0.029253880
+
+longest_continuous_segment.RPE.1.0.rotation_deg
+count: 27
+rmse: 0.535413440
+mean: 0.468741107
+median: 0.431487761
+max: 1.175924637
+
+longest_continuous_segment.RPE.5.0
+
+longest_continuous_segment.RPE.5.0.translation_m
+count: 29
+rmse: 0.026033131
+mean: 0.024035436
+median: 0.024855583
+max: 0.040749739
+
+longest_continuous_segment.RPE.5.0.rotation_deg
+count: 29
+rmse: 2.869570769
+mean: 2.436392973
+median: 2.027298805
+max: 5.598597738
+sim3_scale: 8.263135642
+
+
+Trajectory: KeyFrameTrajectory_TUM_Format_rate0.5.txt
+keyframes: 116
+keyframe_start: 1668742193.866954088
+keyframe_end: 1668742309.298362017
+keyframe_span_s: 115.431407928
+bag_time_coverage_percent: 79.639795
+segment_count: 12
+largest_gap_s: 7.005857944
+longest_segment_keyframes: 52
+
+all_saved_keyframes
+
+all_saved_keyframes.ATE_translation_m
+count: 116
+rmse: 0.022600375
+mean: 0.020535839
+median: 0.019671600
+max: 0.051944734
+
+all_saved_keyframes.ATE_rotation_deg
+count: 116
+rmse: 151.764986736
+mean: 151.730210491
+median: 150.613518404
+max: 156.791550728
+
+all_saved_keyframes.RPE
+
+all_saved_keyframes.RPE.1.0
+
+all_saved_keyframes.RPE.1.0.translation_m
+count: 48
+rmse: 0.013843628
+mean: 0.012667378
+median: 0.011322703
+max: 0.026392608
+
+all_saved_keyframes.RPE.1.0.rotation_deg
+count: 48
+rmse: 0.622611520
+mean: 0.526684380
+median: 0.474981746
+max: 1.832297340
+
+all_saved_keyframes.RPE.5.0
+
+all_saved_keyframes.RPE.5.0.translation_m
+count: 37
+rmse: 0.028868245
+mean: 0.026189020
+median: 0.024273462
+max: 0.052753352
+
+all_saved_keyframes.RPE.5.0.rotation_deg
+count: 37
+rmse: 2.358878678
+mean: 2.059519873
+median: 1.671708669
+max: 4.995248191
+sim3_scale: 8.765790649
+
+longest_continuous_segment
+
+longest_continuous_segment.ATE_translation_m
+count: 52
+rmse: 0.017163731
+mean: 0.016070457
+median: 0.015826711
+max: 0.032848575
+
+longest_continuous_segment.ATE_rotation_deg
+count: 52
+rmse: 149.525934039
+mean: 149.518567991
+median: 150.186968166
+max: 150.893528242
+
+longest_continuous_segment.RPE
+
+longest_continuous_segment.RPE.1.0
+
+longest_continuous_segment.RPE.1.0.translation_m
+count: 32
+rmse: 0.013342949
+mean: 0.011867614
+median: 0.009933316
+max: 0.025579620
+
+longest_continuous_segment.RPE.1.0.rotation_deg
+count: 32
+rmse: 0.652886764
+mean: 0.526411636
+median: 0.436167770
+max: 1.832297340
+
+longest_continuous_segment.RPE.5.0
+
+longest_continuous_segment.RPE.5.0.translation_m
+count: 25
+rmse: 0.026214660
+mean: 0.023624076
+median: 0.023277838
+max: 0.050516850
+
+longest_continuous_segment.RPE.5.0.rotation_deg
+count: 25
+rmse: 2.310058117
+mean: 1.982133211
+median: 1.405021275
+max: 4.995248191
+sim3_scale: 8.747815838
+
+
+Stability diagnostics
+real_time.local_map_failures: 44
+real_time.lost_frame_reports: 1
+real_time.new_maps: 2
+real_time.map_reset_mentions: 1
+rate_0.5.local_map_failures: 43
+rate_0.5.lost_frame_reports: 0
+rate_0.5.new_maps: 2
+rate_0.5.map_reset_mentions: 0

@@ -1,0 +1,10 @@
+FAST-LIO2 Street_02 timing summary
+config: /home/nvidia/drone/stage1_m2dgr_experiments/configs/fastlio_street2.yaml
+filter_size_surf: 0.5
+source: ../fastlio_logs/fast_lio_time_log.csv
+processed_frame_count: 532
+average_total_time_s: 0.158225461
+average_total_time_ms: 158.225461
+effective_processing_rate_hz: 6.320095
+minimum_total_time_ms: 118.454160
+maximum_total_time_ms: 210.642830

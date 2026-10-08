@@ -1,0 +1,21 @@
+Street_02 ORB-SLAM3 supplemental measurement
+===============================================
+
+bag_image_messages: 1819
+received_image_callbacks: 1730
+message_delivery_rate_percent: 95.1072
+message_dropped_frames: 89
+message_dropped_frame_ratio_percent: 4.8928
+
+mean_track_monocular_time_ms: 35.264772
+std_track_monocular_time_ms: 13.081641
+minimum_track_monocular_time_ms: 21.357022
+maximum_track_monocular_time_ms: 142.206951
+effective_algorithm_processing_rate_hz: 28.356911
+
+tracking_state_1: 137
+tracking_state_2: 1593
+
+strict_tracking_success_rate_received_percent: 92.0809
+strict_tracking_success_rate_all_bag_images_percent: 87.5756
+tracking_loss_rate_received_percent: 0.0000

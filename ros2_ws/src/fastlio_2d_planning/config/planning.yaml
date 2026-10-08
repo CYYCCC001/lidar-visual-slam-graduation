@@ -1,0 +1,22 @@
+occupancy_grid_node:
+  ros__parameters:
+    input_topic: /Laser_map
+    output_topic: /planning/occupancy_grid
+    resolution: 0.10
+    update_rate: 1.0
+    min_height: -0.30
+    max_height: 1.20
+    obstacle_value: 100
+    unknown_value: -1
+    use_inflation: true
+    inflation_radius: 0.20
+
+astar_node:
+  ros__parameters:
+    grid_topic: /planning/occupancy_grid
+    path_topic: /planning/astar_path
+    start_topic: /initialpose
+    goal_topic: /goal_pose
+    occupied_threshold: 50
+    allow_diagonal: true
+    publish_rate: 2.0

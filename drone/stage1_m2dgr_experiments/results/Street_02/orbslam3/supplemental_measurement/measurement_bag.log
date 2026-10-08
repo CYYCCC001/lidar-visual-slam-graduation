@@ -1,0 +1,8 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1791272406.871123957] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Street_02/street2_ros2/street2_ros2.db3' for READ_ONLY.
+[INFO] [1791272406.871272846] [rosbag2_player]: Set rate to 0.5
+[INFO] [1791272406.880792224] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1791272406.880913211] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1791272406.880946617] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1791272406.880973048] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1791272406.880993943] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1791272406.881976843] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Street_02/street2_ros2/street2_ros2.db3' for READ_ONLY.

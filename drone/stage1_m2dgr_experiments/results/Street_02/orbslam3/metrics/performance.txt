@@ -1,0 +1,45 @@
+Street_02 ORB-SLAM3 performance record
+======================================
+image_topic: /camera/color/image_raw
+image_messages: 1819
+image_time_range_s: 1667793469.361341953 .. 1667793590.651982069
+image_duration_s: 121.290640116
+image_input_frequency_hz: 14.993
+
+Main 0.5x replay:
+  source: logs/orbslam3_rate0.5_retry.log
+  trajectory: trajectories/KeyFrameTrajectory_TUM_Format_rate0.5.txt
+  keyframes: 93
+  keyframe_span_s: 74.658808
+  bag_time_coverage_percent: 61.553643
+  maximum_keyframe_gap_s: 12.179235
+  local_map_failure_reports: 41
+  new_maps: 2
+  resource_samples: 49
+  average_cpu_percent: 81.85
+  maximum_cpu_percent: 95.00
+  average_memory_percent: 3.77
+  maximum_memory_percent: 4.30
+  maximum_rss_kb: 700312
+
+Supplemental frame-level measurement:
+  source: supplemental_measurement/frame_measurements.csv
+  bag_image_messages: 1819
+  received_image_callbacks: 1730
+  message_delivery_rate_percent: 95.1072
+  message_dropped_frames: 89
+  message_dropped_frame_ratio_percent: 4.8928
+  mean_track_monocular_time_ms: 35.264772
+  minimum_track_monocular_time_ms: 21.357022
+  maximum_track_monocular_time_ms: 142.206951
+  effective_algorithm_processing_rate_hz: 28.356911
+  tracking_state_NOT_INITIALIZED: 137
+  tracking_state_OK: 1593
+  tracking_state_RECENTLY_LOST: 0
+  tracking_state_LOST: 0
+  strict_tracking_success_rate_received_percent: 92.0809
+  strict_tracking_success_rate_all_bag_images_percent: 87.5756
+  tracking_loss_rate_received_percent: 0.0000
+
+The TrackMonocular timing excludes ROS callback scheduling and image clone
+overhead. The effective algorithm rate is not the bag input frequency.

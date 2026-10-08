@@ -1,0 +1,32 @@
+voxel_map_node:
+  ros__parameters:
+    input_topic: /Laser_map
+    voxel_cloud_topic: /planning_3d/occupied_voxels
+    marker_topic: /planning_3d/voxel_markers
+    slice_marker_topic: /planning_3d/voxel_slice_markers
+    resolution: 0.20
+    update_rate: 1.0
+    min_z: -1.00
+    max_z: 2.50
+    slice_min_z: 0.00
+    slice_max_z: 1.50
+    min_points_per_voxel: 1
+    max_voxels: 120000
+    publish_markers: false
+    publish_slice_markers: true
+
+astar_3d_node:
+  ros__parameters:
+    voxel_topic: /planning_3d/occupied_voxels
+    path_topic: /planning_3d/astar_path
+    marker_topic: /planning_3d/path_markers
+    start_topic: /initialpose
+    goal_topic: /goal_pose
+    resolution: 0.20
+    publish_rate: 1.0
+    allow_diagonal: true
+    inflation_radius: 0.30
+    search_margin: 1.00
+    min_z: -1.00
+    max_z: 2.50
+    max_expansions: 250000

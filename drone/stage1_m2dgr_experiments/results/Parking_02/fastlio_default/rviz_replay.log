@@ -1,0 +1,494 @@
+=== RViz replay start: 2026-10-04T15:54:03+08:00 ===
+bag: /home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2
+config: /home/nvidia/drone/stage1_m2dgr_experiments/configs/fastlio_parking2.yaml
+display: :0
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-10-04-15-54-03-934928-nvidia-desktop-11967
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [imu_si_publisher-1]: process started with pid [11969]
+[INFO] [fastlio_mapping-2]: process started with pid [11971]
+[INFO] [rviz2-3]: process started with pid [11973]
+[imu_si_publisher-1] [INFO] [1791100444.446280038] [imu_si_publisher]: IMU SI bridge started: /livox/imu -> /livox/imu_si, acc_scale=9.80665
+[fastlio_mapping-2] [INFO] [1791100444.455426712] [laser_mapping]: p_pre->lidar_type 0
+[fastlio_mapping-2] Multi thread started 
+[fastlio_mapping-2] ~~~~/home/nvidia/ros2_ws/src/fast_lio2/ file opened
+[fastlio_mapping-2] [INFO] [1791100444.468692604] [laser_mapping]: Node init finished.
+[rviz2-3] [INFO] [1791100445.592777564] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1791100445.593031529] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-3] [INFO] [1791100445.646889567] [rviz2]: Stereo is NOT SUPPORTED
+=== nodes before playback ===
+/imu_si_publisher
+/laser_mapping
+/rviz
+/transform_listener_impl_aaaaef6b9bd0
+=== topics before playback ===
+/Laser_map
+/Odometry
+/clicked_point
+/clock
+/cloud_effected
+/cloud_registered
+/cloud_registered_body
+/goal_pose
+/imu
+/initialpose
+/livox/imu
+/livox/imu_si
+/parameter_events
+/path
+/rosout
+/rslidar_points
+/tf
+/tf_static
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1791100458.034384843] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2/parking2_ros2.db3' for READ_ONLY.
+[INFO] [1791100458.034571092] [rosbag2_player]: Set rate to 1
+[INFO] [1791100458.053788192] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1791100458.053994091] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1791100458.054037485] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1791100458.054071279] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1791100458.054195669] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1791100458.055571547] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2/parking2_ros2.db3' for READ_ONLY.
+[fastlio_mapping-2] IMU Initial Done
+[fastlio_mapping-2] [WARN] [1791100458.516795005] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-2] 
+[fastlio_mapping-2] [INFO] [1791100458.733324518] [laser_mapping]: Initialize the map kdtree
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.025518 ave match: 0.069312 ave solve: 0.002859  ave ICP: 0.073082  map incre: 0.011972 ave total: 0.110572 icp: 0.072305 construct H: 0.000834 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.021581 ave match: 0.067430 ave solve: 0.003248  ave ICP: 0.069776  map incre: 0.009254 ave total: 0.105592 icp: 0.070844 construct H: 0.000968 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.022454 ave match: 0.069272 ave solve: 0.003447  ave ICP: 0.077374  map incre: 0.006763 ave total: 0.105925 icp: 0.072896 construct H: 0.001024 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016505 ave match: 0.067028 ave solve: 0.003414  ave ICP: 0.064126  map incre: 0.005892 ave total: 0.101074 icp: 0.070614 construct H: 0.001015 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015219 ave match: 0.065889 ave solve: 0.003416  ave ICP: 0.065428  map incre: 0.005412 ave total: 0.098071 icp: 0.069476 construct H: 0.001017 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015184 ave match: 0.065218 ave solve: 0.003409  ave ICP: 0.066032  map incre: 0.005202 ave total: 0.096129 icp: 0.068798 construct H: 0.001014 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014404 ave match: 0.064421 ave solve: 0.003421  ave ICP: 0.063696  map incre: 0.004127 ave total: 0.094143 icp: 0.068012 construct H: 0.001014 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013484 ave match: 0.063556 ave solve: 0.003322  ave ICP: 0.060659  map incre: 0.004550 ave total: 0.092212 icp: 0.067044 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016043 ave match: 0.063186 ave solve: 0.003249  ave ICP: 0.063355  map incre: 0.003617 ave total: 0.091190 icp: 0.066596 construct H: 0.000963 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017223 ave match: 0.063353 ave solve: 0.003301  ave ICP: 0.069287  map incre: 0.003460 ave total: 0.091068 icp: 0.066817 construct H: 0.000974 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014888 ave match: 0.063255 ave solve: 0.003330  ave ICP: 0.066431  map incre: 0.003357 ave total: 0.090487 icp: 0.066749 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015620 ave match: 0.063485 ave solve: 0.003446  ave ICP: 0.071324  map incre: 0.003652 ave total: 0.090496 icp: 0.067095 construct H: 0.001015 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014711 ave match: 0.063699 ave solve: 0.003448  ave ICP: 0.070254  map incre: 0.003801 ave total: 0.090363 icp: 0.067310 construct H: 0.001017 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014290 ave match: 0.063580 ave solve: 0.003455  ave ICP: 0.066115  map incre: 0.002692 ave total: 0.089844 icp: 0.067199 construct H: 0.001017 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.021715 ave match: 0.063341 ave solve: 0.003456  ave ICP: 0.064070  map incre: 0.002781 ave total: 0.089759 icp: 0.066961 construct H: 0.001017 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.019073 ave match: 0.063646 ave solve: 0.003543  ave ICP: 0.073821  map incre: 0.004072 ave total: 0.090209 icp: 0.067367 construct H: 0.001046 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014844 ave match: 0.063539 ave solve: 0.003540  ave ICP: 0.065857  map incre: 0.003434 ave total: 0.089852 icp: 0.067257 construct H: 0.001045 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015777 ave match: 0.063459 ave solve: 0.003547  ave ICP: 0.066319  map incre: 0.002813 ave total: 0.089577 icp: 0.067183 construct H: 0.001045 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014161 ave match: 0.063258 ave solve: 0.003546  ave ICP: 0.063722  map incre: 0.002368 ave total: 0.089086 icp: 0.066982 construct H: 0.001044 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018697 ave match: 0.063055 ave solve: 0.003506  ave ICP: 0.062414  map incre: 0.002808 ave total: 0.088828 icp: 0.066737 construct H: 0.001032 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016477 ave match: 0.062921 ave solve: 0.003493  ave ICP: 0.063988  map incre: 0.002889 ave total: 0.088567 icp: 0.066586 construct H: 0.001026 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015431 ave match: 0.062781 ave solve: 0.003501  ave ICP: 0.064032  map incre: 0.002392 ave total: 0.088262 icp: 0.066455 construct H: 0.001027 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014853 ave match: 0.062516 ave solve: 0.003464  ave ICP: 0.059894  map incre: 0.002441 ave total: 0.087781 icp: 0.066152 construct H: 0.001016 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015176 ave match: 0.062564 ave solve: 0.003439  ave ICP: 0.067070  map incre: 0.002297 ave total: 0.087646 icp: 0.066174 construct H: 0.001010 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015016 ave match: 0.062747 ave solve: 0.003409  ave ICP: 0.070304  map incre: 0.002378 ave total: 0.087648 icp: 0.066324 construct H: 0.001000 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018399 ave match: 0.063073 ave solve: 0.003421  ave ICP: 0.075838  map incre: 0.003267 ave total: 0.088027 icp: 0.066666 construct H: 0.001005 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013645 ave match: 0.062869 ave solve: 0.003393  ave ICP: 0.060756  map incre: 0.002098 ave total: 0.087600 icp: 0.066432 construct H: 0.000996 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015947 ave match: 0.062860 ave solve: 0.003403  ave ICP: 0.066899  map incre: 0.003035 ave total: 0.087539 icp: 0.066435 construct H: 0.000998 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016174 ave match: 0.062877 ave solve: 0.003458  ave ICP: 0.069795  map incre: 0.003152 ave total: 0.087593 icp: 0.066507 construct H: 0.001002 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013715 ave match: 0.062744 ave solve: 0.003461  ave ICP: 0.062993  map incre: 0.002089 ave total: 0.087300 icp: 0.066377 construct H: 0.001003 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014529 ave match: 0.062520 ave solve: 0.003435  ave ICP: 0.058964  map incre: 0.001937 ave total: 0.086917 icp: 0.066126 construct H: 0.000995 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017231 ave match: 0.062432 ave solve: 0.003430  ave ICP: 0.063551  map incre: 0.002494 ave total: 0.086803 icp: 0.066035 construct H: 0.000995 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015613 ave match: 0.062447 ave solve: 0.003436  ave ICP: 0.067141  map incre: 0.002514 ave total: 0.086757 icp: 0.066056 construct H: 0.000996 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014724 ave match: 0.062362 ave solve: 0.003440  ave ICP: 0.063671  map incre: 0.002223 ave total: 0.086576 icp: 0.065976 construct H: 0.000997 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015074 ave match: 0.062253 ave solve: 0.003417  ave ICP: 0.061717  map incre: 0.002247 ave total: 0.086361 icp: 0.065842 construct H: 0.000991 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014456 ave match: 0.062597 ave solve: 0.003415  ave ICP: 0.078533  map incre: 0.002277 ave total: 0.086608 icp: 0.066184 construct H: 0.000991 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014602 ave match: 0.062559 ave solve: 0.003397  ave ICP: 0.067241  map incre: 0.002316 ave total: 0.086542 icp: 0.066127 construct H: 0.000985 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015744 ave match: 0.062527 ave solve: 0.003399  ave ICP: 0.065373  map incre: 0.002317 ave total: 0.086460 icp: 0.066098 construct H: 0.000985 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014622 ave match: 0.062431 ave solve: 0.003399  ave ICP: 0.062687  map incre: 0.002293 ave total: 0.086284 icp: 0.066001 construct H: 0.000985 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.022748 ave match: 0.062438 ave solve: 0.003420  ave ICP: 0.068063  map incre: 0.002086 ave total: 0.086450 icp: 0.066029 construct H: 0.000987 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.021248 ave match: 0.062449 ave solve: 0.003417  ave ICP: 0.066843  map incre: 0.002877 ave total: 0.086560 icp: 0.066037 construct H: 0.000987 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018130 ave match: 0.062466 ave solve: 0.003425  ave ICP: 0.067487  map incre: 0.002222 ave total: 0.086590 icp: 0.066062 construct H: 0.000991 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013328 ave match: 0.062442 ave solve: 0.003413  ave ICP: 0.064861  map incre: 0.002226 ave total: 0.086447 icp: 0.066027 construct H: 0.000988 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013245 ave match: 0.062323 ave solve: 0.003412  ave ICP: 0.061044  map incre: 0.001929 ave total: 0.086214 icp: 0.065905 construct H: 0.000988 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014603 ave match: 0.062286 ave solve: 0.003411  ave ICP: 0.064711  map incre: 0.002859 ave total: 0.086124 icp: 0.065869 construct H: 0.000988 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013902 ave match: 0.062117 ave solve: 0.003391  ave ICP: 0.057536  map incre: 0.002082 ave total: 0.085850 icp: 0.065679 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014598 ave match: 0.062145 ave solve: 0.003406  ave ICP: 0.068020  map incre: 0.001988 ave total: 0.085824 icp: 0.065721 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013381 ave match: 0.062060 ave solve: 0.003404  ave ICP: 0.061848  map incre: 0.001895 ave total: 0.085643 icp: 0.065634 construct H: 0.000984 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013429 ave match: 0.062066 ave solve: 0.003414  ave ICP: 0.066803  map incre: 0.002168 ave total: 0.085576 icp: 0.065650 construct H: 0.000988 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012661 ave match: 0.061920 ave solve: 0.003408  ave ICP: 0.061308  map incre: 0.009990 ave total: 0.085544 icp: 0.065498 construct H: 0.000986 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012526 ave match: 0.061917 ave solve: 0.003413  ave ICP: 0.066024  map incre: 0.009484 ave total: 0.085593 icp: 0.065500 construct H: 0.000987 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012294 ave match: 0.061814 ave solve: 0.003412  ave ICP: 0.060860  map incre: 0.007954 ave total: 0.085507 icp: 0.065397 construct H: 0.000987 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013163 ave match: 0.061769 ave solve: 0.003411  ave ICP: 0.063254  map incre: 0.008786 ave total: 0.085501 icp: 0.065350 construct H: 0.000986 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013302 ave match: 0.061771 ave solve: 0.003412  ave ICP: 0.065939  map incre: 0.006989 ave total: 0.085514 icp: 0.065354 construct H: 0.000987 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014260 ave match: 0.061784 ave solve: 0.003413  ave ICP: 0.066463  map incre: 0.006926 ave total: 0.085553 icp: 0.065367 construct H: 0.000988 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017016 ave match: 0.061877 ave solve: 0.003412  ave ICP: 0.070913  map incre: 0.011964 ave total: 0.085809 icp: 0.065459 construct H: 0.000988 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014113 ave match: 0.061905 ave solve: 0.003411  ave ICP: 0.067331  map incre: 0.009922 ave total: 0.085907 icp: 0.065486 construct H: 0.000988 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013936 ave match: 0.061954 ave solve: 0.003413  ave ICP: 0.068872  map incre: 0.007999 ave total: 0.085991 icp: 0.065538 construct H: 0.000989 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015495 ave match: 0.062065 ave solve: 0.003415  ave ICP: 0.072602  map incre: 0.008141 ave total: 0.086165 icp: 0.065650 construct H: 0.000990 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014001 ave match: 0.062133 ave solve: 0.003416  ave ICP: 0.070231  map incre: 0.009562 ave total: 0.086292 icp: 0.065719 construct H: 0.000991 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014058 ave match: 0.062417 ave solve: 0.003429  ave ICP: 0.084258  map incre: 0.008686 ave total: 0.086632 icp: 0.066017 construct H: 0.000992 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015283 ave match: 0.062507 ave solve: 0.003428  ave ICP: 0.071880  map incre: 0.010842 ave total: 0.086815 icp: 0.066105 construct H: 0.000992 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015208 ave match: 0.062619 ave solve: 0.003425  ave ICP: 0.073373  map incre: 0.010760 ave total: 0.087014 icp: 0.066215 construct H: 0.000991 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014844 ave match: 0.062758 ave solve: 0.003424  ave ICP: 0.075379  map incre: 0.011318 ave total: 0.087241 icp: 0.066352 construct H: 0.000991 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018286 ave match: 0.063024 ave solve: 0.003421  ave ICP: 0.083922  map incre: 0.010957 ave total: 0.087640 icp: 0.066616 construct H: 0.000990 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016021 ave match: 0.063260 ave solve: 0.003422  ave ICP: 0.082614  map incre: 0.008632 ave total: 0.087937 icp: 0.066852 construct H: 0.000990 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014410 ave match: 0.063368 ave solve: 0.003416  ave ICP: 0.073967  map incre: 0.010700 ave total: 0.088103 icp: 0.066954 construct H: 0.000988 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014388 ave match: 0.063549 ave solve: 0.003411  ave ICP: 0.079359  map incre: 0.015167 ave total: 0.088409 icp: 0.067130 construct H: 0.000987 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.030623 ave match: 0.063860 ave solve: 0.003406  ave ICP: 0.088620  map incre: 0.009240 ave total: 0.088990 icp: 0.067435 construct H: 0.000985 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013681 ave match: 0.064009 ave solve: 0.003404  ave ICP: 0.078070  map incre: 0.008099 ave total: 0.089145 icp: 0.067582 construct H: 0.000985 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013757 ave match: 0.064123 ave solve: 0.003402  ave ICP: 0.075890  map incre: 0.005997 ave total: 0.089237 icp: 0.067694 construct H: 0.000984 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013896 ave match: 0.064289 ave solve: 0.003400  ave ICP: 0.079746  map incre: 0.004536 ave total: 0.089361 icp: 0.067857 construct H: 0.000983 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017128 ave match: 0.064516 ave solve: 0.003400  ave ICP: 0.084847  map incre: 0.004536 ave total: 0.089596 icp: 0.068084 construct H: 0.000983 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017405 ave match: 0.064651 ave solve: 0.003397  ave ICP: 0.078190  map incre: 0.006058 ave total: 0.089759 icp: 0.068216 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017065 ave match: 0.064798 ave solve: 0.003398  ave ICP: 0.079870  map incre: 0.007148 ave total: 0.089950 icp: 0.068365 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013775 ave match: 0.064899 ave solve: 0.003397  ave ICP: 0.076369  map incre: 0.006959 ave total: 0.090044 icp: 0.068464 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015801 ave match: 0.065074 ave solve: 0.003396  ave ICP: 0.082328  map incre: 0.006588 ave total: 0.090235 icp: 0.068639 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016538 ave match: 0.065237 ave solve: 0.003395  ave ICP: 0.081780  map incre: 0.007587 ave total: 0.090435 icp: 0.068801 construct H: 0.000982 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016726 ave match: 0.065638 ave solve: 0.003397  ave ICP: 0.100956  map incre: 0.007555 ave total: 0.090876 icp: 0.069204 construct H: 0.000983 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.019429 ave match: 0.065810 ave solve: 0.003407  ave ICP: 0.084062  map incre: 0.010007 ave total: 0.091159 icp: 0.069385 construct H: 0.000983 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015876 ave match: 0.066035 ave solve: 0.003405  ave ICP: 0.087971  map incre: 0.009288 ave total: 0.091430 icp: 0.069609 construct H: 0.000981 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014254 ave match: 0.066156 ave solve: 0.003401  ave ICP: 0.079521  map incre: 0.007030 ave total: 0.091544 icp: 0.069725 construct H: 0.000980 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015463 ave match: 0.066358 ave solve: 0.003398  ave ICP: 0.086788  map incre: 0.005750 ave total: 0.091743 icp: 0.069924 construct H: 0.000979 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014718 ave match: 0.066597 ave solve: 0.003399  ave ICP: 0.090564  map incre: 0.007180 ave total: 0.091989 icp: 0.070165 construct H: 0.000979 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018679 ave match: 0.066635 ave solve: 0.003394  ave ICP: 0.073394  map incre: 0.006282 ave total: 0.092064 icp: 0.070199 construct H: 0.000978 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013795 ave match: 0.066683 ave solve: 0.003389  ave ICP: 0.074175  map incre: 0.006782 ave total: 0.092096 icp: 0.070241 construct H: 0.000976 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017714 ave match: 0.066771 ave solve: 0.003386  ave ICP: 0.078080  map incre: 0.006999 ave total: 0.092218 icp: 0.070326 construct H: 0.000975 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015061 ave match: 0.066842 ave solve: 0.003387  ave ICP: 0.077139  map incre: 0.007867 ave total: 0.092308 icp: 0.070398 construct H: 0.000976 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013628 ave match: 0.066974 ave solve: 0.003382  ave ICP: 0.082042  map incre: 0.005996 ave total: 0.092413 icp: 0.070525 construct H: 0.000975 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013809 ave match: 0.066984 ave solve: 0.003376  ave ICP: 0.071200  map incre: 0.005907 ave total: 0.092396 icp: 0.070528 construct H: 0.000973 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014191 ave match: 0.067171 ave solve: 0.003371  ave ICP: 0.087547  map incre: 0.006788 ave total: 0.092573 icp: 0.070711 construct H: 0.000971 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013066 ave match: 0.067210 ave solve: 0.003365  ave ICP: 0.074193  map incre: 0.007034 ave total: 0.092592 icp: 0.070744 construct H: 0.000970 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015158 ave match: 0.067265 ave solve: 0.003359  ave ICP: 0.075626  map incre: 0.007898 ave total: 0.092658 icp: 0.070793 construct H: 0.000968 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012622 ave match: 0.067321 ave solve: 0.003353  ave ICP: 0.075926  map incre: 0.007257 ave total: 0.092691 icp: 0.070843 construct H: 0.000966 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016667 ave match: 0.067325 ave solve: 0.003346  ave ICP: 0.070932  map incre: 0.007647 ave total: 0.092718 icp: 0.070840 construct H: 0.000964 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012407 ave match: 0.067313 ave solve: 0.003340  ave ICP: 0.069396  map incre: 0.006254 ave total: 0.092669 icp: 0.070821 construct H: 0.000962 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014003 ave match: 0.067372 ave solve: 0.003334  ave ICP: 0.076339  map incre: 0.007544 ave total: 0.092723 icp: 0.070874 construct H: 0.000960 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013000 ave match: 0.067403 ave solve: 0.003338  ave ICP: 0.074744  map incre: 0.008087 ave total: 0.092755 icp: 0.070909 construct H: 0.000959 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012357 ave match: 0.067413 ave solve: 0.003331  ave ICP: 0.071493  map incre: 0.008801 ave total: 0.092754 icp: 0.070912 construct H: 0.000957 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012419 ave match: 0.067432 ave solve: 0.003324  ave ICP: 0.072547  map incre: 0.006280 ave total: 0.092739 icp: 0.070924 construct H: 0.000955 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013525 ave match: 0.067479 ave solve: 0.003318  ave ICP: 0.075417  map incre: 0.005757 ave total: 0.092758 icp: 0.070965 construct H: 0.000953 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013309 ave match: 0.067507 ave solve: 0.003313  ave ICP: 0.073596  map incre: 0.004607 ave total: 0.092746 icp: 0.070987 construct H: 0.000951 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016664 ave match: 0.067554 ave solve: 0.003307  ave ICP: 0.075669  map incre: 0.004565 ave total: 0.092786 icp: 0.071029 construct H: 0.000949 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014233 ave match: 0.067648 ave solve: 0.003307  ave ICP: 0.081252  map incre: 0.005590 ave total: 0.092866 icp: 0.071121 construct H: 0.000950 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013317 ave match: 0.067760 ave solve: 0.003302  ave ICP: 0.082745  map incre: 0.005182 ave total: 0.092946 icp: 0.071228 construct H: 0.000948 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013334 ave match: 0.067802 ave solve: 0.003297  ave ICP: 0.075557  map incre: 0.004292 ave total: 0.092948 icp: 0.071265 construct H: 0.000946 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015833 ave match: 0.067866 ave solve: 0.003302  ave ICP: 0.079075  map incre: 0.008552 ave total: 0.093046 icp: 0.071334 construct H: 0.000947 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016426 ave match: 0.067917 ave solve: 0.003296  ave ICP: 0.076625  map incre: 0.005003 ave total: 0.093093 icp: 0.071379 construct H: 0.000946 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013637 ave match: 0.067962 ave solve: 0.003291  ave ICP: 0.076031  map incre: 0.005320 ave total: 0.093110 icp: 0.071418 construct H: 0.000944 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013332 ave match: 0.067945 ave solve: 0.003285  ave ICP: 0.069235  map incre: 0.004643 ave total: 0.093056 icp: 0.071395 construct H: 0.000942 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.021052 ave match: 0.068235 ave solve: 0.003287  ave ICP: 0.104455  map incre: 0.007012 ave total: 0.093412 icp: 0.071688 construct H: 0.000941 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014101 ave match: 0.068228 ave solve: 0.003281  ave ICP: 0.070551  map incre: 0.005356 ave total: 0.093382 icp: 0.071675 construct H: 0.000940 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013849 ave match: 0.068266 ave solve: 0.003276  ave ICP: 0.075805  map incre: 0.005175 ave total: 0.093394 icp: 0.071708 construct H: 0.000938 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014195 ave match: 0.068327 ave solve: 0.003271  ave ICP: 0.078525  map incre: 0.004368 ave total: 0.093427 icp: 0.071764 construct H: 0.000936 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014214 ave match: 0.068366 ave solve: 0.003268  ave ICP: 0.076187  map incre: 0.004230 ave total: 0.093437 icp: 0.071799 construct H: 0.000936 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013314 ave match: 0.068361 ave solve: 0.003263  ave ICP: 0.070905  map incre: 0.004285 ave total: 0.093395 icp: 0.071788 construct H: 0.000934 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013754 ave match: 0.068455 ave solve: 0.003259  ave ICP: 0.082989  map incre: 0.004505 ave total: 0.093462 icp: 0.071879 construct H: 0.000933 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014269 ave match: 0.068519 ave solve: 0.003256  ave ICP: 0.079589  map incre: 0.005089 ave total: 0.093508 icp: 0.071941 construct H: 0.000932 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013450 ave match: 0.068559 ave solve: 0.003252  ave ICP: 0.076613  map incre: 0.005912 ave total: 0.093529 icp: 0.071976 construct H: 0.000931 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015802 ave match: 0.068585 ave solve: 0.003247  ave ICP: 0.075009  map incre: 0.004552 ave total: 0.093544 icp: 0.071998 construct H: 0.000930 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014547 ave match: 0.068612 ave solve: 0.003245  ave ICP: 0.075291  map incre: 0.003728 ave total: 0.093544 icp: 0.072022 construct H: 0.000928 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014326 ave match: 0.068625 ave solve: 0.003241  ave ICP: 0.073401  map incre: 0.005757 ave total: 0.093544 icp: 0.072030 construct H: 0.000927 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015658 ave match: 0.068700 ave solve: 0.003236  ave ICP: 0.081126  map incre: 0.005957 ave total: 0.093619 icp: 0.072101 construct H: 0.000926 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013831 ave match: 0.068759 ave solve: 0.003232  ave ICP: 0.079372  map incre: 0.005656 ave total: 0.093661 icp: 0.072156 construct H: 0.000924 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017335 ave match: 0.068880 ave solve: 0.003229  ave ICP: 0.087239  map incre: 0.007984 ave total: 0.093812 icp: 0.072274 construct H: 0.000924 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013692 ave match: 0.068904 ave solve: 0.003221  ave ICP: 0.074548  map incre: 0.011072 ave total: 0.093856 icp: 0.072289 construct H: 0.000922 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013614 ave match: 0.068970 ave solve: 0.003214  ave ICP: 0.080102  map incre: 0.006457 ave total: 0.093906 icp: 0.072347 construct H: 0.000919 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013768 ave match: 0.069005 ave solve: 0.003207  ave ICP: 0.076352  map incre: 0.005901 ave total: 0.093922 icp: 0.072375 construct H: 0.000917 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015881 ave match: 0.069058 ave solve: 0.003200  ave ICP: 0.078647  map incre: 0.004867 ave total: 0.093965 icp: 0.072421 construct H: 0.000915 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013742 ave match: 0.069132 ave solve: 0.003195  ave ICP: 0.081703  map incre: 0.007353 ave total: 0.094032 icp: 0.072490 construct H: 0.000913 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015648 ave match: 0.069227 ave solve: 0.003190  ave ICP: 0.084555  map incre: 0.006407 ave total: 0.094129 icp: 0.072579 construct H: 0.000911 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014156 ave match: 0.069257 ave solve: 0.003183  ave ICP: 0.076023  map incre: 0.005305 ave total: 0.094139 icp: 0.072602 construct H: 0.000909 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013398 ave match: 0.069310 ave solve: 0.003176  ave ICP: 0.079239  map incre: 0.010367 ave total: 0.094205 icp: 0.072648 construct H: 0.000907 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016087 ave match: 0.069392 ave solve: 0.003170  ave ICP: 0.083134  map incre: 0.013551 ave total: 0.094344 icp: 0.072723 construct H: 0.000905 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014732 ave match: 0.069501 ave solve: 0.003160  ave ICP: 0.086518  map incre: 0.016025 ave total: 0.094514 icp: 0.072823 construct H: 0.000902 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015860 ave match: 0.069643 ave solve: 0.003153  ave ICP: 0.091543  map incre: 0.011097 ave total: 0.094690 icp: 0.072957 construct H: 0.000900 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013696 ave match: 0.069702 ave solve: 0.003146  ave ICP: 0.080295  map incre: 0.010267 ave total: 0.094760 icp: 0.073008 construct H: 0.000898 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.023376 ave match: 0.069870 ave solve: 0.003139  ave ICP: 0.095865  map incre: 0.008788 ave total: 0.095001 icp: 0.073169 construct H: 0.000895 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015896 ave match: 0.069926 ave solve: 0.003131  ave ICP: 0.080298  map incre: 0.007412 ave total: 0.095063 icp: 0.073217 construct H: 0.000893 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015224 ave match: 0.070005 ave solve: 0.003124  ave ICP: 0.083701  map incre: 0.007220 ave total: 0.095142 icp: 0.073289 construct H: 0.000891 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013812 ave match: 0.070042 ave solve: 0.003117  ave ICP: 0.077817  map incre: 0.007148 ave total: 0.095168 icp: 0.073318 construct H: 0.000888 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014919 ave match: 0.070087 ave solve: 0.003109  ave ICP: 0.079027  map incre: 0.007605 ave total: 0.095213 icp: 0.073356 construct H: 0.000886 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014154 ave match: 0.070119 ave solve: 0.003102  ave ICP: 0.077109  map incre: 0.006509 ave total: 0.095231 icp: 0.073379 construct H: 0.000884 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013578 ave match: 0.070202 ave solve: 0.003095  ave ICP: 0.084562  map incre: 0.007559 ave total: 0.095304 icp: 0.073454 construct H: 0.000881 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017558 ave match: 0.070341 ave solve: 0.003090  ave ICP: 0.093480  map incre: 0.007629 ave total: 0.095465 icp: 0.073589 construct H: 0.000880 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016951 ave match: 0.070419 ave solve: 0.003084  ave ICP: 0.087250  map incre: 0.012408 ave total: 0.095609 icp: 0.073662 construct H: 0.000879 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018977 ave match: 0.070507 ave solve: 0.003077  ave ICP: 0.085815  map incre: 0.006684 ave total: 0.095717 icp: 0.073741 construct H: 0.000876 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014453 ave match: 0.070705 ave solve: 0.003073  ave ICP: 0.103008  map incre: 0.007115 ave total: 0.095912 icp: 0.073935 construct H: 0.000874 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014385 ave match: 0.070862 ave solve: 0.003066  ave ICP: 0.096639  map incre: 0.006094 ave total: 0.096055 icp: 0.074085 construct H: 0.000872 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013516 ave match: 0.070889 ave solve: 0.003059  ave ICP: 0.077463  map incre: 0.007781 ave total: 0.096073 icp: 0.074105 construct H: 0.000870 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.022291 ave match: 0.071060 ave solve: 0.003052  ave ICP: 0.099211  map incre: 0.007239 ave total: 0.096289 icp: 0.074269 construct H: 0.000868 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014206 ave match: 0.071115 ave solve: 0.003045  ave ICP: 0.081854  map incre: 0.007163 ave total: 0.096335 icp: 0.074316 construct H: 0.000866 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016155 ave match: 0.071179 ave solve: 0.003038  ave ICP: 0.083422  map incre: 0.006285 ave total: 0.096397 icp: 0.074373 construct H: 0.000864 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015745 ave match: 0.071266 ave solve: 0.003033  ave ICP: 0.087710  map incre: 0.005836 ave total: 0.096481 icp: 0.074454 construct H: 0.000862 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016105 ave match: 0.071366 ave solve: 0.003027  ave ICP: 0.089365  map incre: 0.005924 ave total: 0.096577 icp: 0.074548 construct H: 0.000860 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014590 ave match: 0.071445 ave solve: 0.003020  ave ICP: 0.086184  map incre: 0.006252 ave total: 0.096644 icp: 0.074621 construct H: 0.000858 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014732 ave match: 0.071477 ave solve: 0.003013  ave ICP: 0.078718  map incre: 0.007457 ave total: 0.096671 icp: 0.074644 construct H: 0.000856 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015244 ave match: 0.071543 ave solve: 0.003007  ave ICP: 0.084625  map incre: 0.009579 ave total: 0.096752 icp: 0.074704 construct H: 0.000854 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013921 ave match: 0.071586 ave solve: 0.003001  ave ICP: 0.080911  map incre: 0.005825 ave total: 0.096776 icp: 0.074740 construct H: 0.000852 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014303 ave match: 0.071625 ave solve: 0.002994  ave ICP: 0.080305  map incre: 0.006188 ave total: 0.096802 icp: 0.074772 construct H: 0.000850 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014777 ave match: 0.071698 ave solve: 0.002988  ave ICP: 0.085810  map incre: 0.007145 ave total: 0.096869 icp: 0.074839 construct H: 0.000849 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014103 ave match: 0.071719 ave solve: 0.002982  ave ICP: 0.077584  map incre: 0.005262 ave total: 0.096870 icp: 0.074853 construct H: 0.000847 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014585 ave match: 0.071749 ave solve: 0.002976  ave ICP: 0.079149  map incre: 0.006629 ave total: 0.096891 icp: 0.074877 construct H: 0.000845 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014144 ave match: 0.071770 ave solve: 0.002969  ave ICP: 0.077710  map incre: 0.006230 ave total: 0.096899 icp: 0.074891 construct H: 0.000843 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013629 ave match: 0.071770 ave solve: 0.002963  ave ICP: 0.074200  map incre: 0.005232 ave total: 0.096875 icp: 0.074885 construct H: 0.000841 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014762 ave match: 0.071806 ave solve: 0.002958  ave ICP: 0.080207  map incre: 0.005122 ave total: 0.096895 icp: 0.074915 construct H: 0.000839 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014839 ave match: 0.071837 ave solve: 0.002951  ave ICP: 0.079310  map incre: 0.008126 ave total: 0.096927 icp: 0.074939 construct H: 0.000838 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015484 ave match: 0.071926 ave solve: 0.002946  ave ICP: 0.089353  map incre: 0.005258 ave total: 0.097005 icp: 0.075022 construct H: 0.000836 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013664 ave match: 0.071975 ave solve: 0.002940  ave ICP: 0.082701  map incre: 0.004851 ave total: 0.097030 icp: 0.075066 construct H: 0.000834 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014242 ave match: 0.072020 ave solve: 0.002936  ave ICP: 0.082457  map incre: 0.004739 ave total: 0.097056 icp: 0.075107 construct H: 0.000833 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013760 ave match: 0.072069 ave solve: 0.002932  ave ICP: 0.083247  map incre: 0.006051 ave total: 0.097091 icp: 0.075152 construct H: 0.000831 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014313 ave match: 0.072144 ave solve: 0.002927  ave ICP: 0.087410  map incre: 0.005501 ave total: 0.097150 icp: 0.075221 construct H: 0.000830 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015598 ave match: 0.072174 ave solve: 0.002922  ave ICP: 0.079841  map incre: 0.005133 ave total: 0.097170 icp: 0.075246 construct H: 0.000828 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013882 ave match: 0.072218 ave solve: 0.002916  ave ICP: 0.082186  map incre: 0.005591 ave total: 0.097196 icp: 0.075284 construct H: 0.000827 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016075 ave match: 0.072316 ave solve: 0.002912  ave ICP: 0.092133  map incre: 0.005859 ave total: 0.097292 icp: 0.075377 construct H: 0.000825 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017183 ave match: 0.072398 ave solve: 0.002908  ave ICP: 0.089628  map incre: 0.007602 ave total: 0.097389 icp: 0.075456 construct H: 0.000824 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014950 ave match: 0.072470 ave solve: 0.002904  ave ICP: 0.087777  map incre: 0.006894 ave total: 0.097459 icp: 0.075523 construct H: 0.000823 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017067 ave match: 0.072671 ave solve: 0.002902  ave ICP: 0.112109  map incre: 0.006989 ave total: 0.097676 icp: 0.075722 construct H: 0.000822 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014679 ave match: 0.072790 ave solve: 0.002900  ave ICP: 0.097145  map incre: 0.007834 ave total: 0.097799 icp: 0.075839 construct H: 0.000821 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013796 ave match: 0.072865 ave solve: 0.002896  ave ICP: 0.089190  map incre: 0.006885 ave total: 0.097866 icp: 0.075910 construct H: 0.000820 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013431 ave match: 0.072943 ave solve: 0.002892  ave ICP: 0.089664  map incre: 0.006134 ave total: 0.097929 icp: 0.075984 construct H: 0.000818 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013885 ave match: 0.073015 ave solve: 0.002889  ave ICP: 0.088788  map incre: 0.006261 ave total: 0.097989 icp: 0.076052 construct H: 0.000817 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014783 ave match: 0.073095 ave solve: 0.002885  ave ICP: 0.090418  map incre: 0.006581 ave total: 0.098065 icp: 0.076129 construct H: 0.000817 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016673 ave match: 0.073214 ave solve: 0.002882  ave ICP: 0.097703  map incre: 0.007664 ave total: 0.098195 icp: 0.076244 construct H: 0.000815 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014210 ave match: 0.073274 ave solve: 0.002879  ave ICP: 0.086977  map incre: 0.006233 ave total: 0.098245 icp: 0.076300 construct H: 0.000814 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014304 ave match: 0.073318 ave solve: 0.002875  ave ICP: 0.084126  map incre: 0.006513 ave total: 0.098281 icp: 0.076340 construct H: 0.000813 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016202 ave match: 0.073400 ave solve: 0.002871  ave ICP: 0.091267  map incre: 0.006378 ave total: 0.098364 icp: 0.076418 construct H: 0.000811 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015103 ave match: 0.073447 ave solve: 0.002867  ave ICP: 0.084840  map incre: 0.005649 ave total: 0.098402 icp: 0.076461 construct H: 0.000810 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014815 ave match: 0.073518 ave solve: 0.002862  ave ICP: 0.089524  map incre: 0.008878 ave total: 0.098481 icp: 0.076528 construct H: 0.000809 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013740 ave match: 0.073596 ave solve: 0.002860  ave ICP: 0.091173  map incre: 0.009071 ave total: 0.098562 icp: 0.076603 construct H: 0.000808 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015735 ave match: 0.073679 ave solve: 0.002856  ave ICP: 0.092562  map incre: 0.007901 ave total: 0.098655 icp: 0.076683 construct H: 0.000807 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014059 ave match: 0.073729 ave solve: 0.002853  ave ICP: 0.085859  map incre: 0.007771 ave total: 0.098702 icp: 0.076729 construct H: 0.000806 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013959 ave match: 0.073775 ave solve: 0.002849  ave ICP: 0.085190  map incre: 0.008446 ave total: 0.098748 icp: 0.076771 construct H: 0.000805 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015130 ave match: 0.073844 ave solve: 0.002846  ave ICP: 0.089994  map incre: 0.006215 ave total: 0.098813 icp: 0.076837 construct H: 0.000804 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014217 ave match: 0.073892 ave solve: 0.002842  ave ICP: 0.085857  map incre: 0.007159 ave total: 0.098856 icp: 0.076880 construct H: 0.000803 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014167 ave match: 0.073943 ave solve: 0.002839  ave ICP: 0.086613  map incre: 0.009432 ave total: 0.098914 icp: 0.076928 construct H: 0.000802 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014918 ave match: 0.073992 ave solve: 0.002836  ave ICP: 0.086369  map incre: 0.007893 ave total: 0.098966 icp: 0.076974 construct H: 0.000801 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013584 ave match: 0.074066 ave solve: 0.002833  ave ICP: 0.091498  map incre: 0.007163 ave total: 0.099033 icp: 0.077045 construct H: 0.000800 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013393 ave match: 0.074141 ave solve: 0.002830  ave ICP: 0.091854  map incre: 0.007439 ave total: 0.099102 icp: 0.077118 construct H: 0.000799 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014028 ave match: 0.074189 ave solve: 0.002827  ave ICP: 0.086482  map incre: 0.005283 ave total: 0.099135 icp: 0.077162 construct H: 0.000798 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015243 ave match: 0.074265 ave solve: 0.002824  ave ICP: 0.092216  map incre: 0.006170 ave total: 0.099207 icp: 0.077234 construct H: 0.000797 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015401 ave match: 0.074328 ave solve: 0.002821  ave ICP: 0.089824  map incre: 0.005178 ave total: 0.099263 icp: 0.077294 construct H: 0.000796 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014138 ave match: 0.074427 ave solve: 0.002818  ave ICP: 0.097204  map incre: 0.005059 ave total: 0.099347 icp: 0.077391 construct H: 0.000795 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014835 ave match: 0.074469 ave solve: 0.002815  ave ICP: 0.085655  map incre: 0.004404 ave total: 0.099374 icp: 0.077430 construct H: 0.000794 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013378 ave match: 0.074539 ave solve: 0.002812  ave ICP: 0.091220  map incre: 0.007670 ave total: 0.099437 icp: 0.077495 construct H: 0.000793 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013305 ave match: 0.074687 ave solve: 0.002809  ave ICP: 0.108007  map incre: 0.004656 ave total: 0.099566 icp: 0.077642 construct H: 0.000792 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013637 ave match: 0.074735 ave solve: 0.002806  ave ICP: 0.087315  map incre: 0.004282 ave total: 0.099593 icp: 0.077686 construct H: 0.000791 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013759 ave match: 0.074768 ave solve: 0.002802  ave ICP: 0.084131  map incre: 0.004620 ave total: 0.099607 icp: 0.077715 construct H: 0.000790 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013804 ave match: 0.074844 ave solve: 0.002802  ave ICP: 0.094159  map incre: 0.004699 ave total: 0.099670 icp: 0.077792 construct H: 0.000791 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014543 ave match: 0.074926 ave solve: 0.002799  ave ICP: 0.094713  map incre: 0.006166 ave total: 0.099745 icp: 0.077871 construct H: 0.000790 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013402 ave match: 0.074978 ave solve: 0.002796  ave ICP: 0.088453  map incre: 0.004725 ave total: 0.099777 icp: 0.077919 construct H: 0.000789 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013427 ave match: 0.075001 ave solve: 0.002792  ave ICP: 0.082339  map incre: 0.005339 ave total: 0.099783 icp: 0.077938 construct H: 0.000788 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015780 ave match: 0.075050 ave solve: 0.002789  ave ICP: 0.087958  map incre: 0.006085 ave total: 0.099831 icp: 0.077983 construct H: 0.000787 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013236 ave match: 0.075089 ave solve: 0.002786  ave ICP: 0.086276  map incre: 0.004418 ave total: 0.099850 icp: 0.078020 construct H: 0.000786 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013412 ave match: 0.075151 ave solve: 0.002783  ave ICP: 0.090771  map incre: 0.004012 ave total: 0.099889 icp: 0.078078 construct H: 0.000785 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016200 ave match: 0.075186 ave solve: 0.002780  ave ICP: 0.085363  map incre: 0.004428 ave total: 0.099917 icp: 0.078110 construct H: 0.000784 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016465 ave match: 0.075284 ave solve: 0.002776  ave ICP: 0.099254  map incre: 0.005790 ave total: 0.100016 icp: 0.078205 construct H: 0.000783 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013504 ave match: 0.075338 ave solve: 0.002773  ave ICP: 0.089556  map incre: 0.005464 ave total: 0.100055 icp: 0.078255 construct H: 0.000782 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015307 ave match: 0.075389 ave solve: 0.002769  ave ICP: 0.088979  map incre: 0.004864 ave total: 0.100097 icp: 0.078302 construct H: 0.000781 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013803 ave match: 0.075417 ave solve: 0.002766  ave ICP: 0.084308  map incre: 0.005055 ave total: 0.100111 icp: 0.078327 construct H: 0.000780 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015964 ave match: 0.075483 ave solve: 0.002763  ave ICP: 0.092512  map incre: 0.006031 ave total: 0.100176 icp: 0.078390 construct H: 0.000779 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013699 ave match: 0.075504 ave solve: 0.002759  ave ICP: 0.082413  map incre: 0.005864 ave total: 0.100184 icp: 0.078407 construct H: 0.000778 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014992 ave match: 0.075560 ave solve: 0.002755  ave ICP: 0.090539  map incre: 0.006425 ave total: 0.100237 icp: 0.078459 construct H: 0.000776 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013517 ave match: 0.075598 ave solve: 0.002752  ave ICP: 0.086542  map incre: 0.005927 ave total: 0.100263 icp: 0.078494 construct H: 0.000775 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013551 ave match: 0.075646 ave solve: 0.002748  ave ICP: 0.088559  map incre: 0.005178 ave total: 0.100294 icp: 0.078537 construct H: 0.000774 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015830 ave match: 0.075750 ave solve: 0.002747  ave ICP: 0.102544  map incre: 0.006050 ave total: 0.100401 icp: 0.078641 construct H: 0.000774 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018287 ave match: 0.075797 ave solve: 0.002743  ave ICP: 0.088829  map incre: 0.004872 ave total: 0.100452 icp: 0.078684 construct H: 0.000773 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015038 ave match: 0.075844 ave solve: 0.002740  ave ICP: 0.089046  map incre: 0.008823 ave total: 0.100506 icp: 0.078728 construct H: 0.000772 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012901 ave match: 0.075929 ave solve: 0.002736  ave ICP: 0.097718  map incre: 0.007934 ave total: 0.100585 icp: 0.078809 construct H: 0.000771 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013214 ave match: 0.075991 ave solve: 0.002733  ave ICP: 0.092737  map incre: 0.005552 ave total: 0.100633 icp: 0.078868 construct H: 0.000770 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013166 ave match: 0.076037 ave solve: 0.002730  ave ICP: 0.089052  map incre: 0.006123 ave total: 0.100666 icp: 0.078910 construct H: 0.000769 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013546 ave match: 0.076072 ave solve: 0.002726  ave ICP: 0.086464  map incre: 0.005503 ave total: 0.100687 icp: 0.078941 construct H: 0.000768 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012978 ave match: 0.076101 ave solve: 0.002723  ave ICP: 0.085463  map incre: 0.005196 ave total: 0.100699 icp: 0.078968 construct H: 0.000767 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012332 ave match: 0.076092 ave solve: 0.002719  ave ICP: 0.076168  map incre: 0.007011 ave total: 0.100677 icp: 0.078954 construct H: 0.000766 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013709 ave match: 0.076123 ave solve: 0.002715  ave ICP: 0.085719  map incre: 0.005552 ave total: 0.100696 icp: 0.078981 construct H: 0.000764 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012396 ave match: 0.076136 ave solve: 0.002712  ave ICP: 0.081609  map incre: 0.005347 ave total: 0.100690 icp: 0.078990 construct H: 0.000763 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013696 ave match: 0.076208 ave solve: 0.002709  ave ICP: 0.098644  map incre: 0.006680 ave total: 0.100767 icp: 0.079060 construct H: 0.000762 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013498 ave match: 0.076216 ave solve: 0.002705  ave ICP: 0.080377  map incre: 0.003606 ave total: 0.100753 icp: 0.079063 construct H: 0.000761 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014087 ave match: 0.076255 ave solve: 0.002701  ave ICP: 0.087853  map incre: 0.003663 ave total: 0.100774 icp: 0.079099 construct H: 0.000760 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013227 ave match: 0.076279 ave solve: 0.002697  ave ICP: 0.084064  map incre: 0.004711 ave total: 0.100779 icp: 0.079118 construct H: 0.000759 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012951 ave match: 0.076293 ave solve: 0.002694  ave ICP: 0.082051  map incre: 0.003860 ave total: 0.100771 icp: 0.079129 construct H: 0.000758 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012694 ave match: 0.076345 ave solve: 0.002691  ave ICP: 0.091146  map incre: 0.004040 ave total: 0.100800 icp: 0.079177 construct H: 0.000757 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015543 ave match: 0.076392 ave solve: 0.002687  ave ICP: 0.090190  map incre: 0.004133 ave total: 0.100838 icp: 0.079221 construct H: 0.000756 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013472 ave match: 0.076406 ave solve: 0.002684  ave ICP: 0.082209  map incre: 0.003366 ave total: 0.100830 icp: 0.079231 construct H: 0.000755 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015102 ave match: 0.076424 ave solve: 0.002681  ave ICP: 0.083451  map incre: 0.003518 ave total: 0.100835 icp: 0.079246 construct H: 0.000753 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013565 ave match: 0.076434 ave solve: 0.002677  ave ICP: 0.081116  map incre: 0.002829 ave total: 0.100822 icp: 0.079252 construct H: 0.000752 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014939 ave match: 0.076506 ave solve: 0.002674  ave ICP: 0.096494  map incre: 0.003802 ave total: 0.100880 icp: 0.079321 construct H: 0.000751 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013802 ave match: 0.076519 ave solve: 0.002670  ave ICP: 0.082082  map incre: 0.003423 ave total: 0.100874 icp: 0.079330 construct H: 0.000750 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014257 ave match: 0.076590 ave solve: 0.002668  ave ICP: 0.096943  map incre: 0.004372 ave total: 0.100933 icp: 0.079399 construct H: 0.000749 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013608 ave match: 0.076658 ave solve: 0.002665  ave ICP: 0.096143  map incre: 0.005423 ave total: 0.100990 icp: 0.079464 construct H: 0.000748 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013897 ave match: 0.076709 ave solve: 0.002662  ave ICP: 0.092002  map incre: 0.004123 ave total: 0.101026 icp: 0.079512 construct H: 0.000747 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014396 ave match: 0.076728 ave solve: 0.002659  ave ICP: 0.083659  map incre: 0.004088 ave total: 0.101030 icp: 0.079527 construct H: 0.000746 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016256 ave match: 0.076764 ave solve: 0.002656  ave ICP: 0.088534  map incre: 0.004070 ave total: 0.101061 icp: 0.079561 construct H: 0.000745 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015921 ave match: 0.076795 ave solve: 0.002653  ave ICP: 0.086995  map incre: 0.003132 ave total: 0.101081 icp: 0.079588 construct H: 0.000744 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015443 ave match: 0.076838 ave solve: 0.002650  ave ICP: 0.090100  map incre: 0.003668 ave total: 0.101113 icp: 0.079628 construct H: 0.000743 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013938 ave match: 0.076849 ave solve: 0.002646  ave ICP: 0.081886  map incre: 0.003549 ave total: 0.101106 icp: 0.079635 construct H: 0.000742 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013872 ave match: 0.076868 ave solve: 0.002643  ave ICP: 0.084246  map incre: 0.002965 ave total: 0.101106 icp: 0.079651 construct H: 0.000741 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013796 ave match: 0.076895 ave solve: 0.002641  ave ICP: 0.086073  map incre: 0.003753 ave total: 0.101116 icp: 0.079675 construct H: 0.000741 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014251 ave match: 0.076933 ave solve: 0.002639  ave ICP: 0.089517  map incre: 0.003246 ave total: 0.101138 icp: 0.079711 construct H: 0.000740 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014075 ave match: 0.076957 ave solve: 0.002636  ave ICP: 0.085392  map incre: 0.002708 ave total: 0.101142 icp: 0.079732 construct H: 0.000739 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014915 ave match: 0.076982 ave solve: 0.002633  ave ICP: 0.085695  map incre: 0.004255 ave total: 0.101157 icp: 0.079753 construct H: 0.000738 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014110 ave match: 0.077049 ave solve: 0.002631  ave ICP: 0.097216  map incre: 0.003751 ave total: 0.101210 icp: 0.079818 construct H: 0.000737 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014303 ave match: 0.077067 ave solve: 0.002628  ave ICP: 0.084164  map incre: 0.003474 ave total: 0.101212 icp: 0.079833 construct H: 0.000736 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015594 ave match: 0.077086 ave solve: 0.002625  ave ICP: 0.084325  map incre: 0.003841 ave total: 0.101222 icp: 0.079849 construct H: 0.000735 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013287 ave match: 0.077140 ave solve: 0.002622  ave ICP: 0.093984  map incre: 0.003828 ave total: 0.101259 icp: 0.079901 construct H: 0.000735 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016029 ave match: 0.077165 ave solve: 0.002619  ave ICP: 0.086029  map incre: 0.003080 ave total: 0.101274 icp: 0.079922 construct H: 0.000734 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014315 ave match: 0.077186 ave solve: 0.002616  ave ICP: 0.084971  map incre: 0.002738 ave total: 0.101277 icp: 0.079940 construct H: 0.000733 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015071 ave match: 0.077205 ave solve: 0.002613  ave ICP: 0.084688  map incre: 0.003129 ave total: 0.101283 icp: 0.079956 construct H: 0.000732 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014380 ave match: 0.077231 ave solve: 0.002610  ave ICP: 0.086542  map incre: 0.005336 ave total: 0.101301 icp: 0.079979 construct H: 0.000731 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016620 ave match: 0.077258 ave solve: 0.002607  ave ICP: 0.086720  map incre: 0.003179 ave total: 0.101321 icp: 0.080002 construct H: 0.000730 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015360 ave match: 0.077294 ave solve: 0.002604  ave ICP: 0.089483  map incre: 0.002585 ave total: 0.101343 icp: 0.080036 construct H: 0.000729 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014321 ave match: 0.077325 ave solve: 0.002601  ave ICP: 0.087929  map incre: 0.002630 ave total: 0.101356 icp: 0.080064 construct H: 0.000728 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014311 ave match: 0.077346 ave solve: 0.002599  ave ICP: 0.085483  map incre: 0.003680 ave total: 0.101364 icp: 0.080082 construct H: 0.000727 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016207 ave match: 0.077379 ave solve: 0.002596  ave ICP: 0.088717  map incre: 0.002745 ave total: 0.101387 icp: 0.080112 construct H: 0.000726 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016429 ave match: 0.077417 ave solve: 0.002593  ave ICP: 0.090161  map incre: 0.002906 ave total: 0.101416 icp: 0.080147 construct H: 0.000725 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014209 ave match: 0.077457 ave solve: 0.002591  ave ICP: 0.091005  map incre: 0.002981 ave total: 0.101441 icp: 0.080184 construct H: 0.000725 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013850 ave match: 0.077467 ave solve: 0.002588  ave ICP: 0.082545  map incre: 0.003160 ave total: 0.101434 icp: 0.080192 construct H: 0.000724 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013321 ave match: 0.077512 ave solve: 0.002586  ave ICP: 0.092275  map incre: 0.003851 ave total: 0.101463 icp: 0.080234 construct H: 0.000723 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015652 ave match: 0.077551 ave solve: 0.002583  ave ICP: 0.090804  map incre: 0.006186 ave total: 0.101503 icp: 0.080270 construct H: 0.000722 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014511 ave match: 0.077575 ave solve: 0.002580  ave ICP: 0.086494  map incre: 0.003774 ave total: 0.101515 icp: 0.080291 construct H: 0.000721 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015076 ave match: 0.077631 ave solve: 0.002578  ave ICP: 0.095915  map incre: 0.003358 ave total: 0.101560 icp: 0.080345 construct H: 0.000720 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015446 ave match: 0.077656 ave solve: 0.002575  ave ICP: 0.086994  map incre: 0.002756 ave total: 0.101573 icp: 0.080367 construct H: 0.000719 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014566 ave match: 0.077676 ave solve: 0.002572  ave ICP: 0.085422  map incre: 0.003092 ave total: 0.101579 icp: 0.080384 construct H: 0.000719 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013694 ave match: 0.077683 ave solve: 0.002569  ave ICP: 0.081943  map incre: 0.003096 ave total: 0.101569 icp: 0.080388 construct H: 0.000718 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015891 ave match: 0.077741 ave solve: 0.002567  ave ICP: 0.096782  map incre: 0.003119 ave total: 0.101619 icp: 0.080444 construct H: 0.000717 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013375 ave match: 0.077767 ave solve: 0.002564  ave ICP: 0.087294  map incre: 0.003495 ave total: 0.101627 icp: 0.080467 construct H: 0.000716 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014455 ave match: 0.077805 ave solve: 0.002562  ave ICP: 0.091000  map incre: 0.003074 ave total: 0.101651 icp: 0.080502 construct H: 0.000715 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016575 ave match: 0.077861 ave solve: 0.002559  ave ICP: 0.096225  map incre: 0.004200 ave total: 0.101705 icp: 0.080555 construct H: 0.000714 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015367 ave match: 0.077877 ave solve: 0.002556  ave ICP: 0.084893  map incre: 0.002907 ave total: 0.101710 icp: 0.080569 construct H: 0.000713 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013452 ave match: 0.077883 ave solve: 0.002553  ave ICP: 0.081627  map incre: 0.002681 ave total: 0.101696 icp: 0.080571 construct H: 0.000712 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.009078 ave match: 0.077958 ave solve: 0.002551  ave ICP: 0.102136  map incre: 0.002956 ave total: 0.101739 icp: 0.080644 construct H: 0.000712 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014278 ave match: 0.077960 ave solve: 0.002548  ave ICP: 0.080660  map incre: 0.003719 ave total: 0.101729 icp: 0.080643 construct H: 0.000711 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013694 ave match: 0.077963 ave solve: 0.002546  ave ICP: 0.081510  map incre: 0.002485 ave total: 0.101715 icp: 0.080643 construct H: 0.000710 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013966 ave match: 0.077976 ave solve: 0.002543  ave ICP: 0.083867  map incre: 0.004379 ave total: 0.101716 icp: 0.080653 construct H: 0.000709 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015314 ave match: 0.077999 ave solve: 0.002541  ave ICP: 0.087427  map incre: 0.003131 ave total: 0.101730 icp: 0.080674 construct H: 0.000708 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014052 ave match: 0.078024 ave solve: 0.002538  ave ICP: 0.087702  map incre: 0.002220 ave total: 0.101738 icp: 0.080696 construct H: 0.000708 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014225 ave match: 0.078030 ave solve: 0.002535  ave ICP: 0.082210  map incre: 0.002843 ave total: 0.101730 icp: 0.080700 construct H: 0.000707 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013795 ave match: 0.078046 ave solve: 0.002533  ave ICP: 0.084672  map incre: 0.002190 ave total: 0.101726 icp: 0.080712 construct H: 0.000706 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016638 ave match: 0.078110 ave solve: 0.002530  ave ICP: 0.099787  map incre: 0.002340 ave total: 0.101783 icp: 0.080774 construct H: 0.000705 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013458 ave match: 0.078127 ave solve: 0.002528  ave ICP: 0.085265  map incre: 0.002126 ave total: 0.101780 icp: 0.080788 construct H: 0.000704 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014290 ave match: 0.078137 ave solve: 0.002526  ave ICP: 0.083504  map incre: 0.004159 ave total: 0.101781 icp: 0.080796 construct H: 0.000704 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.008842 ave match: 0.078177 ave solve: 0.002524  ave ICP: 0.092892  map incre: 0.002992 ave total: 0.101790 icp: 0.080835 construct H: 0.000703 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015555 ave match: 0.078202 ave solve: 0.002522  ave ICP: 0.088059  map incre: 0.002897 ave total: 0.101806 icp: 0.080857 construct H: 0.000702 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.008558 ave match: 0.078233 ave solve: 0.002520  ave ICP: 0.090056  map incre: 0.002818 ave total: 0.101805 icp: 0.080886 construct H: 0.000702 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014640 ave match: 0.078241 ave solve: 0.002517  ave ICP: 0.082865  map incre: 0.002835 ave total: 0.101800 icp: 0.080891 construct H: 0.000701 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013952 ave match: 0.078250 ave solve: 0.002515  ave ICP: 0.083266  map incre: 0.004138 ave total: 0.101798 icp: 0.080898 construct H: 0.000700 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017078 ave match: 0.078263 ave solve: 0.002513  ave ICP: 0.084518  map incre: 0.005533 ave total: 0.101816 icp: 0.080909 construct H: 0.000699 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015755 ave match: 0.078333 ave solve: 0.002512  ave ICP: 0.102448  map incre: 0.011486 ave total: 0.101906 icp: 0.080977 construct H: 0.000699 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014163 ave match: 0.078355 ave solve: 0.002510  ave ICP: 0.087625  map incre: 0.010858 ave total: 0.101941 icp: 0.080997 construct H: 0.000698 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013985 ave match: 0.078375 ave solve: 0.002508  ave ICP: 0.087367  map incre: 0.009882 ave total: 0.101971 icp: 0.081016 construct H: 0.000698 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013920 ave match: 0.078416 ave solve: 0.002506  ave ICP: 0.093562  map incre: 0.003272 ave total: 0.101999 icp: 0.081055 construct H: 0.000697 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013761 ave match: 0.078428 ave solve: 0.002504  ave ICP: 0.084408  map incre: 0.002916 ave total: 0.101996 icp: 0.081064 construct H: 0.000696 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015129 ave match: 0.078466 ave solve: 0.002501  ave ICP: 0.092407  map incre: 0.002447 ave total: 0.102022 icp: 0.081099 construct H: 0.000696 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014275 ave match: 0.078487 ave solve: 0.002500  ave ICP: 0.087836  map incre: 0.002265 ave total: 0.102029 icp: 0.081120 construct H: 0.000695 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013701 ave match: 0.078552 ave solve: 0.002498  ave ICP: 0.101360  map incre: 0.002709 ave total: 0.102079 icp: 0.081182 construct H: 0.000694 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013649 ave match: 0.078581 ave solve: 0.002497  ave ICP: 0.090138  map incre: 0.002793 ave total: 0.102094 icp: 0.081210 construct H: 0.000694 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014367 ave match: 0.078618 ave solve: 0.002495  ave ICP: 0.092802  map incre: 0.006201 ave total: 0.102129 icp: 0.081245 construct H: 0.000693 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014326 ave match: 0.078641 ave solve: 0.002493  ave ICP: 0.088086  map incre: 0.003050 ave total: 0.102140 icp: 0.081265 construct H: 0.000693 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014290 ave match: 0.078692 ave solve: 0.002491  ave ICP: 0.097634  map incre: 0.003358 ave total: 0.102181 icp: 0.081315 construct H: 0.000692 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014310 ave match: 0.078716 ave solve: 0.002489  ave ICP: 0.088696  map incre: 0.002564 ave total: 0.102191 icp: 0.081337 construct H: 0.000691 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013523 ave match: 0.078731 ave solve: 0.002487  ave ICP: 0.085822  map incre: 0.002751 ave total: 0.102191 icp: 0.081350 construct H: 0.000691 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015935 ave match: 0.078798 ave solve: 0.002486  ave ICP: 0.102935  map incre: 0.003411 ave total: 0.102254 icp: 0.081416 construct H: 0.000690 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016150 ave match: 0.078848 ave solve: 0.002484  ave ICP: 0.097165  map incre: 0.016803 ave total: 0.102340 icp: 0.081463 construct H: 0.000690 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016778 ave match: 0.078893 ave solve: 0.002482  ave ICP: 0.096045  map incre: 0.011443 ave total: 0.102408 icp: 0.081507 construct H: 0.000689 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014689 ave match: 0.078935 ave solve: 0.002481  ave ICP: 0.095191  map incre: 0.009664 ave total: 0.102460 icp: 0.081548 construct H: 0.000689 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015968 ave match: 0.078966 ave solve: 0.002479  ave ICP: 0.091145  map incre: 0.006054 ave total: 0.102493 icp: 0.081576 construct H: 0.000688 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015092 ave match: 0.079020 ave solve: 0.002477  ave ICP: 0.099235  map incre: 0.003524 ave total: 0.102540 icp: 0.081629 construct H: 0.000688 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014296 ave match: 0.079042 ave solve: 0.002475  ave ICP: 0.088499  map incre: 0.002805 ave total: 0.102549 icp: 0.081649 construct H: 0.000687 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014008 ave match: 0.079072 ave solve: 0.002474  ave ICP: 0.091233  map incre: 0.002582 ave total: 0.102565 icp: 0.081677 construct H: 0.000687 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013640 ave match: 0.079101 ave solve: 0.002472  ave ICP: 0.090848  map incre: 0.003367 ave total: 0.102581 icp: 0.081703 construct H: 0.000686 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016226 ave match: 0.079168 ave solve: 0.002470  ave ICP: 0.103872  map incre: 0.003036 ave total: 0.102644 icp: 0.081769 construct H: 0.000686 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015889 ave match: 0.079205 ave solve: 0.002468  ave ICP: 0.093833  map incre: 0.003747 ave total: 0.102676 icp: 0.081804 construct H: 0.000685 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014297 ave match: 0.079247 ave solve: 0.002467  ave ICP: 0.095511  map incre: 0.003161 ave total: 0.102707 icp: 0.081844 construct H: 0.000685 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013943 ave match: 0.079289 ave solve: 0.002465  ave ICP: 0.095897  map incre: 0.004780 ave total: 0.102743 icp: 0.081885 construct H: 0.000684 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016086 ave match: 0.079311 ave solve: 0.002464  ave ICP: 0.089053  map incre: 0.008437 ave total: 0.102775 icp: 0.081905 construct H: 0.000684 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014948 ave match: 0.079346 ave solve: 0.002462  ave ICP: 0.093472  map incre: 0.007802 ave total: 0.102815 icp: 0.081938 construct H: 0.000683 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015401 ave match: 0.079414 ave solve: 0.002460  ave ICP: 0.104480  map incre: 0.006792 ave total: 0.102886 icp: 0.082004 construct H: 0.000683 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014109 ave match: 0.079434 ave solve: 0.002458  ave ICP: 0.088689  map incre: 0.005749 ave total: 0.102903 icp: 0.082023 construct H: 0.000682 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013611 ave match: 0.079456 ave solve: 0.002456  ave ICP: 0.089084  map incre: 0.004628 ave total: 0.102916 icp: 0.082042 construct H: 0.000682 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015239 ave match: 0.079477 ave solve: 0.002454  ave ICP: 0.088633  map incre: 0.004290 ave total: 0.102931 icp: 0.082061 construct H: 0.000681 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014506 ave match: 0.079535 ave solve: 0.002452  ave ICP: 0.101871  map incre: 0.004506 ave total: 0.102984 icp: 0.082118 construct H: 0.000680 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014885 ave match: 0.079562 ave solve: 0.002450  ave ICP: 0.091062  map incre: 0.003873 ave total: 0.103004 icp: 0.082142 construct H: 0.000680 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015776 ave match: 0.079594 ave solve: 0.002449  ave ICP: 0.092906  map incre: 0.003798 ave total: 0.103031 icp: 0.082172 construct H: 0.000679 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014195 ave match: 0.079607 ave solve: 0.002446  ave ICP: 0.085983  map incre: 0.003686 ave total: 0.103034 icp: 0.082183 construct H: 0.000679 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017227 ave match: 0.079664 ave solve: 0.002445  ave ICP: 0.101927  map incre: 0.005972 ave total: 0.103098 icp: 0.082239 construct H: 0.000678 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014458 ave match: 0.079685 ave solve: 0.002442  ave ICP: 0.088909  map incre: 0.005577 ave total: 0.103115 icp: 0.082257 construct H: 0.000677 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013624 ave match: 0.079711 ave solve: 0.002441  ave ICP: 0.091023  map incre: 0.002829 ave total: 0.103127 icp: 0.082281 construct H: 0.000677 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015813 ave match: 0.079747 ave solve: 0.002438  ave ICP: 0.094568  map incre: 0.002682 ave total: 0.103156 icp: 0.082315 construct H: 0.000676 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014824 ave match: 0.079800 ave solve: 0.002437  ave ICP: 0.100358  map incre: 0.003659 ave total: 0.103201 icp: 0.082365 construct H: 0.000675 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014468 ave match: 0.079833 ave solve: 0.002434  ave ICP: 0.093370  map incre: 0.003586 ave total: 0.103224 icp: 0.082396 construct H: 0.000675 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014715 ave match: 0.079922 ave solve: 0.002433  ave ICP: 0.113950  map incre: 0.004256 ave total: 0.103309 icp: 0.082484 construct H: 0.000674 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013416 ave match: 0.079956 ave solve: 0.002431  ave ICP: 0.094214  map incre: 0.004192 ave total: 0.103333 icp: 0.082516 construct H: 0.000673 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014212 ave match: 0.079984 ave solve: 0.002429  ave ICP: 0.091961  map incre: 0.010497 ave total: 0.103371 icp: 0.082542 construct H: 0.000673 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015699 ave match: 0.080057 ave solve: 0.002428  ave ICP: 0.108721  map incre: 0.011125 ave total: 0.103462 icp: 0.082615 construct H: 0.000673 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013426 ave match: 0.080094 ave solve: 0.002426  ave ICP: 0.095366  map incre: 0.009051 ave total: 0.103502 icp: 0.082649 construct H: 0.000672 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013660 ave match: 0.080112 ave solve: 0.002425  ave ICP: 0.088657  map incre: 0.008807 ave total: 0.103524 icp: 0.082665 construct H: 0.000672 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012621 ave match: 0.080124 ave solve: 0.002423  ave ICP: 0.086635  map incre: 0.008191 ave total: 0.103535 icp: 0.082675 construct H: 0.000671 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015155 ave match: 0.080167 ave solve: 0.002421  ave ICP: 0.097840  map incre: 0.006039 ave total: 0.103578 icp: 0.082716 construct H: 0.000670 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014464 ave match: 0.080212 ave solve: 0.002420  ave ICP: 0.098708  map incre: 0.006146 ave total: 0.103622 icp: 0.082760 construct H: 0.000670 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014715 ave match: 0.080245 ave solve: 0.002418  ave ICP: 0.094307  map incre: 0.005665 ave total: 0.103652 icp: 0.082791 construct H: 0.000669 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012352 ave match: 0.080256 ave solve: 0.002416  ave ICP: 0.086508  map incre: 0.006671 ave total: 0.103658 icp: 0.082800 construct H: 0.000669 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012822 ave match: 0.080278 ave solve: 0.002414  ave ICP: 0.090441  map incre: 0.006681 ave total: 0.103675 icp: 0.082820 construct H: 0.000668 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015208 ave match: 0.080361 ave solve: 0.002413  ave ICP: 0.113384  map incre: 0.006850 ave total: 0.103763 icp: 0.082903 construct H: 0.000668 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012806 ave match: 0.080354 ave solve: 0.002411  ave ICP: 0.079880  map incre: 0.005370 ave total: 0.103747 icp: 0.082894 construct H: 0.000667 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013441 ave match: 0.080383 ave solve: 0.002410  ave ICP: 0.093503  map incre: 0.007726 ave total: 0.103777 icp: 0.082921 construct H: 0.000667 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015611 ave match: 0.080409 ave solve: 0.002408  ave ICP: 0.092175  map incre: 0.006022 ave total: 0.103804 icp: 0.082945 construct H: 0.000666 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013398 ave match: 0.080432 ave solve: 0.002406  ave ICP: 0.091112  map incre: 0.005137 ave total: 0.103820 icp: 0.082966 construct H: 0.000666 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013500 ave match: 0.080447 ave solve: 0.002404  ave ICP: 0.087906  map incre: 0.005600 ave total: 0.103829 icp: 0.082978 construct H: 0.000665 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015181 ave match: 0.080518 ave solve: 0.002402  ave ICP: 0.109000  map incre: 0.005861 ave total: 0.103900 icp: 0.083047 construct H: 0.000665 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014664 ave match: 0.080545 ave solve: 0.002400  ave ICP: 0.092836  map incre: 0.004560 ave total: 0.103922 icp: 0.083073 construct H: 0.000664 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014517 ave match: 0.080596 ave solve: 0.002398  ave ICP: 0.101497  map incre: 0.007919 ave total: 0.103976 icp: 0.083121 construct H: 0.000663 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015033 ave match: 0.080613 ave solve: 0.002396  ave ICP: 0.089291  map incre: 0.005328 ave total: 0.103991 icp: 0.083137 construct H: 0.000663 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.025731 ave match: 0.080705 ave solve: 0.002395  ave ICP: 0.117551  map incre: 0.005818 ave total: 0.104112 icp: 0.083228 construct H: 0.000662 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018188 ave match: 0.080757 ave solve: 0.002392  ave ICP: 0.102306  map incre: 0.017080 ave total: 0.104202 icp: 0.083277 construct H: 0.000661 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014078 ave match: 0.080824 ave solve: 0.002391  ave ICP: 0.107932  map incre: 0.017497 ave total: 0.104296 icp: 0.083342 construct H: 0.000661 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.028278 ave match: 0.080885 ave solve: 0.002389  ave ICP: 0.106186  map incre: 0.013386 ave total: 0.104411 icp: 0.083401 construct H: 0.000660 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015498 ave match: 0.080900 ave solve: 0.002387  ave ICP: 0.088674  map incre: 0.009119 ave total: 0.104435 icp: 0.083414 construct H: 0.000660 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014045 ave match: 0.080939 ave solve: 0.002385  ave ICP: 0.097762  map incre: 0.010888 ave total: 0.104483 icp: 0.083451 construct H: 0.000659 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014931 ave match: 0.080961 ave solve: 0.002383  ave ICP: 0.091226  map incre: 0.006924 ave total: 0.104506 icp: 0.083471 construct H: 0.000658 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016097 ave match: 0.081033 ave solve: 0.002381  ave ICP: 0.110542  map incre: 0.013434 ave total: 0.104600 icp: 0.083541 construct H: 0.000657 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015808 ave match: 0.081072 ave solve: 0.002379  ave ICP: 0.097991  map incre: 0.008593 ave total: 0.104646 icp: 0.083577 construct H: 0.000657 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.021588 ave match: 0.081147 ave solve: 0.002377  ave ICP: 0.111815  map incre: 0.007847 ave total: 0.104742 icp: 0.083650 construct H: 0.000656 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014350 ave match: 0.081174 ave solve: 0.002375  ave ICP: 0.093369  map incre: 0.004279 ave total: 0.104761 icp: 0.083675 construct H: 0.000655 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013730 ave match: 0.081203 ave solve: 0.002372  ave ICP: 0.094171  map incre: 0.006741 ave total: 0.104787 icp: 0.083701 construct H: 0.000655 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015733 ave match: 0.081222 ave solve: 0.002370  ave ICP: 0.090357  map incre: 0.003430 ave total: 0.104799 icp: 0.083717 construct H: 0.000654 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014769 ave match: 0.081236 ave solve: 0.002367  ave ICP: 0.088633  map incre: 0.002834 ave total: 0.104803 icp: 0.083729 construct H: 0.000653 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016057 ave match: 0.081272 ave solve: 0.002365  ave ICP: 0.097297  map incre: 0.008910 ave total: 0.104848 icp: 0.083763 construct H: 0.000652 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015159 ave match: 0.081309 ave solve: 0.002363  ave ICP: 0.097743  map incre: 0.011921 ave total: 0.104899 icp: 0.083798 construct H: 0.000652 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014577 ave match: 0.081335 ave solve: 0.002361  ave ICP: 0.093276  map incre: 0.008932 ave total: 0.104930 icp: 0.083821 construct H: 0.000651 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014699 ave match: 0.081367 ave solve: 0.002359  ave ICP: 0.096013  map incre: 0.013488 ave total: 0.104979 icp: 0.083851 construct H: 0.000650 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013395 ave match: 0.081384 ave solve: 0.002357  ave ICP: 0.090638  map incre: 0.009826 ave total: 0.105002 icp: 0.083867 construct H: 0.000650 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015769 ave match: 0.081423 ave solve: 0.002355  ave ICP: 0.098386  map incre: 0.007113 ave total: 0.105044 icp: 0.083903 construct H: 0.000649 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014757 ave match: 0.081449 ave solve: 0.002353  ave ICP: 0.093675  map incre: 0.006011 ave total: 0.105068 icp: 0.083927 construct H: 0.000648 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013988 ave match: 0.081469 ave solve: 0.002351  ave ICP: 0.091540  map incre: 0.007335 ave total: 0.105087 icp: 0.083945 construct H: 0.000648 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014310 ave match: 0.081490 ave solve: 0.002349  ave ICP: 0.091823  map incre: 0.005652 ave total: 0.105104 icp: 0.083964 construct H: 0.000647 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.019610 ave match: 0.081554 ave solve: 0.002347  ave ICP: 0.109088  map incre: 0.004412 ave total: 0.105175 icp: 0.084027 construct H: 0.000647 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015510 ave match: 0.081595 ave solve: 0.002346  ave ICP: 0.099733  map incre: 0.003382 ave total: 0.105209 icp: 0.084065 construct H: 0.000646 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013808 ave match: 0.081645 ave solve: 0.002344  ave ICP: 0.103766  map incre: 0.003113 ave total: 0.105248 icp: 0.084113 construct H: 0.000645 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013959 ave match: 0.081668 ave solve: 0.002342  ave ICP: 0.093136  map incre: 0.002660 ave total: 0.105259 icp: 0.084135 construct H: 0.000645 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014020 ave match: 0.081692 ave solve: 0.002340  ave ICP: 0.093002  map incre: 0.005031 ave total: 0.105276 icp: 0.084156 construct H: 0.000644 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014312 ave match: 0.081712 ave solve: 0.002338  ave ICP: 0.091957  map incre: 0.004491 ave total: 0.105290 icp: 0.084175 construct H: 0.000644 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016485 ave match: 0.081791 ave solve: 0.002337  ave ICP: 0.115695  map incre: 0.005627 ave total: 0.105371 icp: 0.084252 construct H: 0.000643 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015855 ave match: 0.081816 ave solve: 0.002335  ave ICP: 0.093876  map incre: 0.005195 ave total: 0.105394 icp: 0.084275 construct H: 0.000642 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015240 ave match: 0.081854 ave solve: 0.002333  ave ICP: 0.099257  map incre: 0.006061 ave total: 0.105432 icp: 0.084311 construct H: 0.000642 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014278 ave match: 0.081879 ave solve: 0.002331  ave ICP: 0.093871  map incre: 0.004917 ave total: 0.105451 icp: 0.084334 construct H: 0.000641 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014219 ave match: 0.081899 ave solve: 0.002329  ave ICP: 0.092282  map incre: 0.002313 ave total: 0.105459 icp: 0.084352 construct H: 0.000641 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014851 ave match: 0.081946 ave solve: 0.002328  ave ICP: 0.103189  map incre: 0.006532 ave total: 0.105506 icp: 0.084398 construct H: 0.000640 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014076 ave match: 0.081974 ave solve: 0.002326  ave ICP: 0.095192  map incre: 0.003567 ave total: 0.105524 icp: 0.084423 construct H: 0.000640 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014528 ave match: 0.082036 ave solve: 0.002324  ave ICP: 0.109687  map incre: 0.004319 ave total: 0.105580 icp: 0.084484 construct H: 0.000639 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016651 ave match: 0.082094 ave solve: 0.002323  ave ICP: 0.108233  map incre: 0.002905 ave total: 0.105634 icp: 0.084541 construct H: 0.000638 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.018324 ave match: 0.082170 ave solve: 0.002321  ave ICP: 0.115400  map incre: 0.002093 ave total: 0.105708 icp: 0.084615 construct H: 0.000638 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.022334 ave match: 0.082209 ave solve: 0.002319  ave ICP: 0.100358  map incre: 0.004073 ave total: 0.105759 icp: 0.084652 construct H: 0.000637 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014804 ave match: 0.082248 ave solve: 0.002317  ave ICP: 0.100241  map incre: 0.002323 ave total: 0.105787 icp: 0.084689 construct H: 0.000637 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014202 ave match: 0.082274 ave solve: 0.002316  ave ICP: 0.094867  map incre: 0.005852 ave total: 0.105809 icp: 0.084713 construct H: 0.000636 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016821 ave match: 0.082305 ave solve: 0.002314  ave ICP: 0.097230  map incre: 0.008867 ave total: 0.105850 icp: 0.084742 construct H: 0.000636 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015146 ave match: 0.082338 ave solve: 0.002313  ave ICP: 0.098312  map incre: 0.007900 ave total: 0.105888 icp: 0.084773 construct H: 0.000635 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.017381 ave match: 0.082373 ave solve: 0.002312  ave ICP: 0.099636  map incre: 0.008591 ave total: 0.105935 icp: 0.084808 construct H: 0.000635 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015533 ave match: 0.082428 ave solve: 0.002310  ave ICP: 0.107515  map incre: 0.007092 ave total: 0.105993 icp: 0.084861 construct H: 0.000634 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016239 ave match: 0.082461 ave solve: 0.002309  ave ICP: 0.098745  map incre: 0.007412 ave total: 0.106032 icp: 0.084893 construct H: 0.000634 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.016032 ave match: 0.082565 ave solve: 0.002307  ave ICP: 0.128119  map incre: 0.005372 ave total: 0.106135 icp: 0.084995 construct H: 0.000633 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013197 ave match: 0.082567 ave solve: 0.002305  ave ICP: 0.085259  map incre: 0.002157 ave total: 0.106122 icp: 0.084994 construct H: 0.000633 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012705 ave match: 0.082567 ave solve: 0.002303  ave ICP: 0.084755  map incre: 0.002441 ave total: 0.106108 icp: 0.084993 construct H: 0.000632 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012463 ave match: 0.082603 ave solve: 0.002301  ave ICP: 0.101396  map incre: 0.003125 ave total: 0.106133 icp: 0.085026 construct H: 0.000631 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015125 ave match: 0.082636 ave solve: 0.002299  ave ICP: 0.098629  map incre: 0.002938 ave total: 0.106158 icp: 0.085057 construct H: 0.000631 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015024 ave match: 0.082663 ave solve: 0.002297  ave ICP: 0.095973  map incre: 0.002396 ave total: 0.106175 icp: 0.085082 construct H: 0.000630 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013301 ave match: 0.082672 ave solve: 0.002295  ave ICP: 0.088438  map incre: 0.001481 ave total: 0.106168 icp: 0.085089 construct H: 0.000630 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013266 ave match: 0.082683 ave solve: 0.002293  ave ICP: 0.089234  map incre: 0.002179 ave total: 0.106165 icp: 0.085098 construct H: 0.000629 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013376 ave match: 0.082701 ave solve: 0.002291  ave ICP: 0.092326  map incre: 0.002172 ave total: 0.106169 icp: 0.085113 construct H: 0.000628 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.014958 ave match: 0.082730 ave solve: 0.002289  ave ICP: 0.097143  map incre: 0.001606 ave total: 0.106186 icp: 0.085140 construct H: 0.000628 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015102 ave match: 0.082743 ave solve: 0.002287  ave ICP: 0.090421  map incre: 0.001586 ave total: 0.106189 icp: 0.085152 construct H: 0.000627 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013470 ave match: 0.082750 ave solve: 0.002285  ave ICP: 0.087644  map incre: 0.004226 ave total: 0.106187 icp: 0.085157 construct H: 0.000627 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.012954 ave match: 0.082754 ave solve: 0.002283  ave ICP: 0.086312  map incre: 0.002971 ave total: 0.106177 icp: 0.085159 construct H: 0.000626 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.009106 ave match: 0.082787 ave solve: 0.002281  ave ICP: 0.098983  map incre: 0.002130 ave total: 0.106187 icp: 0.085190 construct H: 0.000625 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.015017 ave match: 0.082818 ave solve: 0.002280  ave ICP: 0.098430  map incre: 0.002887 ave total: 0.106210 icp: 0.085219 construct H: 0.000625 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013357 ave match: 0.082840 ave solve: 0.002278  ave ICP: 0.094296  map incre: 0.002364 ave total: 0.106219 icp: 0.085239 construct H: 0.000624 
+[fastlio_mapping-2] [ mapping ]: time: IMU + Map + Input Downsample: 0.013700 ave match: 0.082866 ave solve: 0.002276  ave ICP: 0.096155  map incre: 0.002309 ave total: 0.106233 icp: 0.085263 construct H: 0.000624 
+=== RViz screenshots captured: 2026-10-04T15:56:50+08:00 ===
+-rw-rw-r-- 1 nvidia nvidia 876K Oct  4 15:56 /home/nvidia/drone/stage1_m2dgr_experiments/results/Parking_02/fastlio_default/rviz/parking2_rviz_final.png
+-rw-rw-r-- 1 nvidia nvidia 861K Oct  4 15:54 /home/nvidia/drone/stage1_m2dgr_experiments/results/Parking_02/fastlio_default/rviz/parking2_rviz_midrun.png
+=== stopping launch pid 11967 ===
+=== RViz replay end: 2026-10-04T15:57:05+08:00 ===

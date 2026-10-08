@@ -1,0 +1,59 @@
+=== Street_02 ORB-SLAM3 supplemental measurement start: 2026-10-06T15:39:55+08:00 ===
+binary: /home/nvidia/ros2_ws/install/orb_slam3_ros2/lib/orb_slam3_ros2/orb_slam3_mono
+bag: /home/nvidia/drone/stage1_m2dgr_experiments/bags/Street_02/street2_ros2
+config: /home/nvidia/drone/stage1_m2dgr_experiments/configs/orbslam3_street2_measurement.yaml
+node_pid: 22858
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Monocular
+Loading settings from /home/nvidia/drone/stage1_m2dgr_experiments/configs/orbslam3_street2_camera.yaml
+	-Loaded camera 1
+Camera.newHeight optional parameter does not exist...
+Camera.newWidth optional parameter does not exist...
+	-Loaded image info
+	-Loaded ORB settings
+Viewer.imageViewScale optional parameter does not exist...
+	-Loaded viewer settings
+System.LoadAtlasFromFile optional parameter does not exist...
+System.SaveAtlasToFile optional parameter does not exist...
+	-Loaded Atlas settings
+System.thFarPoints optional parameter does not exist...
+	-Loaded misc parameters
+----------------------------------
+SLAM settings: 
+	-Camera 1 parameters (Pinhole): [ 603.956 603.126 324.086 232.723 ]
+	-Camera 1 distortion parameters: [  0 0 0 0 0 ]
+	-Original image size: [ 640 , 480 ]
+	-Current image size: [ 640 , 480 ]
+	-Sequence FPS: 15
+	-Features per image: 1000
+	-ORB scale factor: 1.2
+	-ORB number of scales: 8
+	-Initial FAST threshold: 20
+	-Min FAST threshold: 7
+
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+Initialization of Atlas from scratch 
+Creation of new map with id: 0
+Creation of new map with last KF id: 0
+Seq. Name: 
+There are 1 cameras in the atlas
+Camera 0 is pinhole
+[INFO] [1791272405.312530819] [orb_slam3_mono]: ORB-SLAM3 ROS 2 monocular interface ready; image topic: /camera/color/image_raw
+=== playback start: 2026-10-06T15:40:06+08:00 ===
+First KF:0; Map init KF:0
+New Map created with 219 points
+=== playback finished: 2026-10-06T15:44:10+08:00 ===
+[INFO] [1791272650.597958397] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Shutdown
+
+Saving keyframe trajectory to /home/nvidia/drone/stage1_m2dgr_experiments/results/Street_02/orbslam3/supplemental_measurement/KeyFrameTrajectory_TUM_Format_rate0.5.txt ...
+=== supplemental measurement end: 2026-10-06T15:44:11+08:00 ===

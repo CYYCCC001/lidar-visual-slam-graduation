@@ -1,0 +1,4 @@
+Street_02 RViz replay completed
+bag: /home/nvidia/drone/stage1_m2dgr_experiments/bags/Street_02/street2_ros2
+midrun_screenshot: street2_fastlio_rviz_midrun.png
+final_screenshot: street2_fastlio_rviz_final.png

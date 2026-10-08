@@ -1,0 +1,15 @@
+{
+    "makeModel": "\u5409\u9009C330",
+    "isThermal": false,
+    "ccdWidthMMPerPixel": "0.002750460589595233/1.0",
+    "ccdHeightMMPerPixel": "0.0027512190417578494/1.0",
+    "widthPixels": 1280,
+    "heightPixels": 720,
+    "lensType": "perspective",
+    "radialR1": -0.3444317015262578,
+    "radialR2": -0.0425973499448526,
+    "radialR3": 0.1760519241632982,
+    "tangentialT1": 0.0033113741817606,
+    "tangentialT2": -0.0007117750627973,
+    "comment": "\u5409\u9009 C330 1080p USB webcam; focal length estimated as 3.6 mm"
+}

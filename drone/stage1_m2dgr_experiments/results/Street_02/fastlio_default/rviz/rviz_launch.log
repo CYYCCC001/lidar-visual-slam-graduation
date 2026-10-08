@@ -1,0 +1,13 @@
+1791266562.7081573 [INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-10-06-14-02-42-705479-nvidia-desktop-15014
+1791266562.7085996 [INFO] [launch]: Default logging verbosity is set to INFO
+1791266562.8331740 [INFO] [imu_si_publisher-1]: process started with pid [15034]
+1791266562.8344567 [INFO] [fastlio_mapping-2]: process started with pid [15036]
+1791266562.8393531 [INFO] [rviz2-3]: process started with pid [15038]
+1791266563.8863716 [rviz2-3] [INFO] [1791266563.885592201] [rviz2]: Stereo is NOT SUPPORTED
+1791266563.8871701 [rviz2-3] [INFO] [1791266563.885838683] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+1791266563.9400795 [rviz2-3] [INFO] [1791266563.939367917] [rviz2]: Stereo is NOT SUPPORTED
+1791266780.9060521 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1791266780.9108367 [rviz2-3] [INFO] [1791266780.900274418] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+1791266781.0183222 [INFO] [imu_si_publisher-1]: process has finished cleanly [pid 15034]
+1791266781.2095850 [INFO] [fastlio_mapping-2]: process has finished cleanly [pid 15036]
+1791266782.1399140 [INFO] [rviz2-3]: process has finished cleanly [pid 15038]

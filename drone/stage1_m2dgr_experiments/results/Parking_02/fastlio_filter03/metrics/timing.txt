@@ -1,0 +1,11 @@
+filter_size_surf: 0.3
+timing_source: fastlio_logs/fast_lio_time_log.csv
+processed_frame_count: 627
+average_total_time_s: 0.143546414
+average_total_time_ms: 143.546414
+effective_processing_rate_hz: 6.966388
+average_log_timestamp_interval_s: 0.229972604
+input_timestamp_rate_hz: 4.348344
+minimum_total_time_ms: 106.667690
+maximum_total_time_ms: 178.137560
+timing_note: effective_processing_rate is 1 / average total processing time; input rate is derived from log timestamps.

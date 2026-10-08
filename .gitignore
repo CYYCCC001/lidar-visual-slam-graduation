@@ -1,0 +1,22 @@
+
+# lidar-visual-slam upload exclusions
+**/__pycache__/
+*.pyc
+*.pyo
+*.o
+*.so
+*.a
+*.d
+**/build/
+**/install/
+**/CMakeFiles/
+**/log/
+**/.git/
+drone/bin/
+drone/backup/
+drone/camera/yolo/
+drone/stage1_m2dgr_experiments/bags/
+drone/camera/orbslam3/ORB_SLAM3-master/Vocabulary/ORBvoc.txt
+drone/stage1_m2dgr_experiments/results/Parking_02/fastlio_filter03/map.pcd
+drone/stage1_m2dgr_experiments/results/Parking_02/fastlio_default/map.pcd
+drone/stage1_m2dgr_experiments/results/Street_02/fastlio_default/map.pcd

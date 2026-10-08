@@ -1,0 +1,62 @@
+=== ORB-SLAM3 Parking_02 run start: 2026-10-04T16:39:13+08:00 ===
+bag: /home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2
+image_topic: /camera/color/image_raw
+config: /home/nvidia/drone/stage1_m2dgr_experiments/configs/orbslam3_parking2_ros2.yaml
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Monocular
+Loading settings from /home/nvidia/drone/stage1_m2dgr_experiments/configs/orbslam3_parking2_camera.yaml
+	-Loaded camera 1
+Camera.newHeight optional parameter does not exist...
+Camera.newWidth optional parameter does not exist...
+	-Loaded image info
+	-Loaded ORB settings
+Viewer.imageViewScale optional parameter does not exist...
+	-Loaded viewer settings
+System.LoadAtlasFromFile optional parameter does not exist...
+System.SaveAtlasToFile optional parameter does not exist...
+	-Loaded Atlas settings
+System.thFarPoints optional parameter does not exist...
+	-Loaded misc parameters
+----------------------------------
+SLAM settings: 
+	-Camera 1 parameters (Pinhole): [ 603.956 603.126 324.086 232.723 ]
+	-Camera 1 distortion parameters: [  0 0 0 0 0 ]
+	-Original image size: [ 640 , 480 ]
+	-Current image size: [ 640 , 480 ]
+	-Sequence FPS: 15
+	-Features per image: 1000
+	-ORB scale factor: 1.2
+	-ORB number of scales: 8
+	-Initial FAST threshold: 20
+	-Min FAST threshold: 7
+
+
+Loading ORB Vocabulary. This could take a while...
+=== playback start: 2026-10-04T16:39:21+08:00 ===
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1791103161.939200688] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2/parking2_ros2.db3' for READ_ONLY.
+[INFO] [1791103161.939361046] [rosbag2_player]: Set rate to 1
+[INFO] [1791103161.947612101] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1791103161.947725129] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1791103161.947757130] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1791103161.947782923] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1791103161.947802636] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1791103161.948715917] [rosbag2_storage]: Opened database '/home/nvidia/drone/stage1_m2dgr_experiments/bags/Parking_02/parking2_ros2/parking2_ros2.db3' for READ_ONLY.
+Vocabulary loaded!
+
+Initialization of Atlas from scratch 
+Creation of new map with id: 0
+Creation of new map with last KF id: 0
+Seq. Name: 
+There are 1 cameras in the atlas
+Camera 0 is pinhole
+[INFO] [1791103163.740540381] [orb_slam3_mono]: ORB-SLAM3 ROS 2 monocular interface ready; image topic: /camera/color/image_raw
+First KF:0; Map init KF:0
+New Map created with 187 points
+=== playback finished: 2026-10-04T16:41:48+08:00 ===
+=== ORB-SLAM3 Parking_02 run end: 2026-10-04T16:42:10+08:00 ===

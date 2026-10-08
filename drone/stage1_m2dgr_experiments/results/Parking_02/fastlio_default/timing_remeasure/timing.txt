@@ -1,0 +1,10 @@
+filter_size_surf: 0.5
+source: timing_remeasure/fast_lio_time_log.csv
+processed_frame_count: 674
+average_total_time_s: 0.112914781
+average_total_time_ms: 112.914781
+effective_processing_rate_hz: 8.856236
+average_log_timestamp_interval_s: 0.213912110
+input_timestamp_rate_hz: 4.674817
+minimum_total_time_ms: 85.719940
+maximum_total_time_ms: 138.178580

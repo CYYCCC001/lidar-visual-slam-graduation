@@ -1,0 +1,8 @@
+orb_slam3_mono:
+  ros__parameters:
+    vocabulary_path: /home/nvidia/drone/camera/orbslam3/ORB_SLAM3-master/Vocabulary/ORBvoc.txt
+    settings_path: /home/nvidia/drone/stage1_m2dgr_experiments/configs/orbslam3_parking2_camera.yaml
+    image_topic: /camera/color/image_raw
+    keyframe_trajectory_path: /home/nvidia/drone/stage1_m2dgr_experiments/results/Parking_02/orbslam3/KeyFrameTrajectory_TUM_Format.txt
+    use_viewer: false
+    queue_size: 10
